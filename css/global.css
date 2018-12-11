@@ -1,0 +1,242 @@
+html, body{height: 100%; width: 100%; font-family: 'Alegreya Sans', sans-serif;}
+body{background: #F0F0F0;}
+
+
+/* ========================= CADRE =============================== */
+
+.cadre{
+    position: fixed;
+    display: block;
+    width:100%;
+    height: 30px;
+    background: #fff;
+    z-index: 100;
+}
+
+span#bottom{
+    bottom: 0;
+}
+
+span#left{
+    left: 0;
+    width: 30px;
+    height: 100%;
+}
+span#right{
+    right: 0;
+    width: 30px;
+    height: 100%;
+}
+
+/* ========================= LINES =============================== */
+
+.lines{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 101;
+    width: 100%;
+}
+
+/* ========================= BURGER =============================== */
+
+.hamburger-button{
+    position: absolute;
+    z-index: 9999;
+    display: block;
+    vertical-align: top;
+    height:45px;
+    width:25px;
+    left:50%;
+    transform: translateX(-50%);
+    top: 30px;
+    cursor: pointer;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    transition-duration:.2s;
+}
+
+.hamburger-button>span {
+    position: absolute;
+    display: block;
+    height: 25px;
+    width: 4px;
+    background-color: #1A1A1A;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    transition-duration:0.4s;
+}
+
+.hamburger-button>span:first-child{
+    left: 0;
+}
+
+.hamburger-button>span:nth-child(2){
+    left: 50%;
+    transform: translateX(-50%);
+    height: 35px;
+}
+
+.hamburger-button>span:last-child{
+    right: 0;
+}
+
+.close_menu{
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    transition-duration:.2s;
+    z-index: 890; 
+}
+
+.close_menu>a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+
+.menu_line{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 60%;
+    height: 1px;
+    background: #fff;
+}
+
+#navbar{
+    position:absolute;
+    opacity:.9;
+    z-index:888; 
+    height:100%;
+    width: 100%;
+    top:-100%;
+    transition:0.3s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    background-color:#1A1A1A;
+    color:#fff;
+}
+
+#navbar ul{
+    list-style:none;
+    font-size:1.5em;
+}
+
+#navbar ul li{
+    position: relative;
+    width: 200px;
+    top: 220px;
+    text-align: right;
+    z-index: 999;
+    transform: rotate(-90deg);
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* ========================= LOGO =============================== */
+
+#logo_home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15%;
+    transform: translate(-50%,-50%);
+    z-index: 102;
+}
+
+/* ========================= UFO =============================== */
+
+#ufo{
+    width: 8%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    z-index: 103;
+}
+
+/* ========================= SOCIAL NETWORK =============================== */
+
+.socialNetwork{
+    position: absolute;
+    bottom: 50px;
+    width: 150px;
+    left: 56px;
+}
+
+.instagram{
+    position: absolute;
+    left: 35px;
+}
+
+.social_line{
+    position: absolute;
+    left: 75px;
+    bottom: 12px;
+    display: block;
+    width: 68px;
+    height: 1px;
+    background: #0A0A0A;
+}
+
+/* ========================= TYPED =============================== */
+
+
+#console{
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 70%;
+    z-index: 105;
+}
+.typewriter{
+    color: #1A1A1A;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.caret{
+    background: #1A1A1A;
+    animation: blink 1s linear infinite;
+    -webkit-animation: blink 1s infinite linear;
+    -ms-animation: blink 1s infinite linear;
+    -moz-animation: blink 1s infinite linear;
+    -o-animation: blink 1s infinite linear;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}
+@-ms-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}
+@-moz-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}
+@-o-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}

@@ -1,0 +1,36 @@
+
+<svg width="424px" height="421px" viewBox="0 0 424 421" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="22.2051056%" fx="50%" fy="22.2051056%" r="46.7128917%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0012FF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TARIFS-03" transform="translate(-89.000000, -200.000000)">
+            <g id="atome" transform="translate(89.000000, 202.000000)">
+                <circle id="Oval-2" fill="url(#radialGradient-1)" cx="212.5" cy="208.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-4" fill="url(#radialGradient-1)" cx="224.5" cy="208.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-7" fill="url(#radialGradient-1)" cx="200.5" cy="226.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy" fill="url(#radialGradient-1)" cx="202.5" cy="218.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-2" fill="url(#radialGradient-1)" cx="221.5" cy="218.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-8" fill="url(#radialGradient-1)" cx="225.5" cy="226.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-6" fill="url(#radialGradient-1)" cx="214.5" cy="197.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-3" fill="url(#radialGradient-1)" cx="213.5" cy="230.5" r="10.5"></circle>
+                <circle id="Oval-2-Copy-5" fill="url(#radialGradient-1)" cx="200.5" cy="208.5" r="10.5"></circle>
+                <circle id="Oval" stroke="#0012FF" stroke-width="3" cx="212.5" cy="208.5" r="177.5"></circle>
+                <circle id="Oval-3" stroke="#1A1A1A" stroke-width="3" cx="213" cy="208" r="73"></circle>
+                <circle id="Oval-3" stroke="#1A1A1A" stroke-width="3" cx="213.5" cy="208.5" r="146.5"></circle>
+                <circle id="Oval-3" stroke="#1A1A1A" stroke-width="3" cx="213.5" cy="208.5" r="208.5"></circle>
+                <circle id="Oval-3" stroke="#0012FF" stroke-width="3" cx="213.5" cy="208.5" r="108.5"></circle>
+                <circle id="Oval-4" fill="#1A1A1A" cx="286" cy="219" r="11"></circle>
+                <circle id="Oval-4-Copy" fill="#1A1A1A" cx="232" cy="355" r="11"></circle>
+                <circle id="Oval-4-Copy-2" fill="#1A1A1A" cx="11" cy="151" r="11"></circle>
+                <circle id="Oval-4-Copy-3" fill="#0012FF" cx="67" cy="306" r="11"></circle>
+                <circle id="Oval-4-Copy-4" fill="#0012FF" cx="196" cy="100" r="11"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
