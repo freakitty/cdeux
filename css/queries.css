@@ -1,0 +1,17 @@
+@media screen and (max-width:380px){
+    .cadre{height: 20px;}
+    span#left, span#right{width: 20px;}
+    .hamburger-button{top: 20px;}
+    #logo_home{width: 30%;}
+    #ufo{width: 18%; left: 20%; top: 20%;}
+    .socialNetwork{bottom: 32px; left: 40px;}
+    .typewriter{font-size: .7em;}
+    #console{max-width: 100%; bottom: 20%;}
+    #navbar ul{font-size: 1em;}
+    em{font-size: .7em;}
+    .menu_line{width: 80%;}
+    .dot:nth-child(6), #navbar ul li:nth-child(1){left: 10%;}
+    .dot:nth-child(2), #navbar ul li:nth-child(2){left: 30%;}
+    .dot:nth-child(4), #navbar ul li:nth-child(4){left: 70%;}
+    .dot:nth-child(5), #navbar ul li:nth-child(5){left: 90%;}
+}

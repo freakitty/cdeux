@@ -107,6 +107,11 @@ span#right{
     color: #fff;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 300;
+    transition: .2s ease-in-out;
+}
+
+.close_menu a:hover{
+    color: #00FF21;
 }
 
 .menu_line{
@@ -118,6 +123,41 @@ span#right{
     width: 60%;
     height: 1px;
     background: #fff;
+}
+
+.dot{
+    display: block;
+    background: #FFF;
+    width: 14px;
+    height: 14px;
+    border-radius: 20px;
+    position: absolute;
+    top: 94px;
+}
+
+.dot:nth-child(6), #navbar ul li:nth-child(1){
+    left: 20%;
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.dot:nth-child(2), #navbar ul li:nth-child(2){
+    left: 35%;
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.dot:nth-child(3), #navbar ul li:nth-child(3){
+    left: 50%;
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.dot:nth-child(4), #navbar ul li:nth-child(4){
+    left: 65%;
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.dot:nth-child(5), #navbar ul li:nth-child(5){
+    left: 80%;
+    transform: translateX(-50%) rotate(-90deg);
 }
 
 #navbar{
@@ -143,19 +183,31 @@ span#right{
 }
 
 #navbar ul li{
-    position: relative;
+    position: absolute;
     width: 200px;
-    top: 220px;
+    top: 200px;
     text-align: right;
     z-index: 999;
-    transform: rotate(-90deg);
+    left: 50%;
+    vertical-align: top;
 }
+
 #navbar ul li a{
     text-decoration: none;
     font-weight: 700;
     color: #fff;
+    transition: .2s ease-in-out;
 }
 
+#navbar ul li a:hover{
+    color: #00FF21;
+}
+
+em{
+    font-weight: 300;
+    font-size: .8em;
+    line-height: 10px;
+}
 /* ========================= LOGO =============================== */
 
 #logo_home{
