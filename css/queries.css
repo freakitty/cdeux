@@ -13,9 +13,9 @@
 @media screen and (max-width:420px){
     #console_cnous{left: 20%;}
     .intro{font-size: 1.2em; line-height: 30px; max-width: 250px; left: 20%;}
-    .affordance{width: 50px;}
+    .affordance{width: 50px; bottom: 64px;}
     .brain{width: 50px;}
-    .down_arrow{width: 30px;}
+    .down_arrow{width: 20px; margin-left: 14px;}
 }
 
 

@@ -59,6 +59,8 @@ $(function () {
         $(".affo_brain").css("opacity", 1 - $(window).scrollTop() / 250);
     });
 
+    /* ============================= TEXT INTRO ================================ */
+    
     var mq = window.matchMedia("(max-width: 780px)");
   
     if (mq.matches) {
