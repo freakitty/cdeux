@@ -359,7 +359,7 @@ em{
 .smart_txt ul{
     display: none;
     position: absolute;
-    background: #5A5A5A;
+    background: #1A1A1A;
     padding: 0 4px;
     margin-top: 53px;
 }
@@ -389,7 +389,7 @@ em{
 }
 
 .hey ul{
-    margin-left: -127px;
+    margin-left: -120px;
 }
 .hey ul img{
     width: 30px;
