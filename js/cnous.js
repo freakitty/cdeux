@@ -10,14 +10,7 @@ var tw = typewriter(twSpan).withAccuracy(95)
                              .withMinimumSpeed(5)
                              .withMaximumSpeed(17)
                              .build();
-tw.type('Hello world ')
-    .waitRange(500, 1000)
-    .put('<br/>')
-    .waitRange(1000, 1500)
-    .type('Ici C2')
-    .waitRange(1000, 1500)
-    .put('<br/>')
-    .type('Communication établie');
+tw.type('You are not alone');
 
 /* ============================= BURGER ================================ */
 $(function () {
@@ -59,4 +52,55 @@ $(function () {
             $('.close_menu').css('display', 'none');
         }
     });
+    
+    /* ============================= AFFORDANCE ================================ */
+    
+    $(window).scroll(function () {
+        $(".affo_brain").css("opacity", 1 - $(window).scrollTop() / 250);
+    });
+
+    var mq = window.matchMedia("(max-width: 780px)");
+  
+    if (mq.matches) {
+        $('.smart_txt').css('color', '#fff');
+        (function () {
+            var wordsCom = [
+                'web',
+                'print',
+                'community management',
+                'communication'
+            ], a = 0;
+            setInterval(function () {
+                $('.com').fadeOut(function () {
+                    $(this).html(wordsCom[a = (a + 1) % wordsCom.length]).fadeIn();
+                });
+                
+            }, 4000);
+        
+        })();
+    } else {
+        $(".com").hover(function () {
+            $(".com ul").addClass("active");
+        }, function () {
+            $(".com ul").removeClass("active");
+        });
+    
+        $(".human").hover(function () {
+            $(".human ul").addClass("active");
+        }, function () {
+            $(".human ul").removeClass("active");
+        });
+    
+        $(".evolve").hover(function () {
+            $(".evolve ul").addClass("active");
+        }, function () {
+            $(".evolve ul").removeClass("active");
+        });
+    
+        $(".hey").hover(function () {
+            $(".hey ul").addClass("active");
+        }, function () {
+            $(".hey ul").removeClass("active");
+        });
+    }
 });

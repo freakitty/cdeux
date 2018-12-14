@@ -1,6 +1,5 @@
-html, body{height: 100%; width: 100%; font-family: 'Alegreya Sans', sans-serif;}
+html, body, main{height: 100%; width: 100%; font-family: 'Alegreya Sans', sans-serif;}
 body{background: #F0F0F0;}
-
 
 /* ========================= CADRE =============================== */
 
@@ -41,7 +40,7 @@ span#right{
 /* ========================= BURGER =============================== */
 
 .hamburger-button{
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     display: block;
     vertical-align: top;
@@ -219,6 +218,13 @@ em{
     z-index: 102;
 }
 
+#logo_page{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 60px;
+}
+
 /* ========================= UFO =============================== */
 
 #ufo{
@@ -227,12 +233,18 @@ em{
     top: 15%;
     left: 35%;
     z-index: 103;
+    animation: fly .7s ease;
+}
+
+@keyframes fly {
+    0% {top: -100px; left: 20%;}
+    100% {top: 15%; left: 35%;}
 }
 
 /* ========================= SOCIAL NETWORK =============================== */
 
 .socialNetwork{
-    position: absolute;
+    position: fixed;
     bottom: 50px;
     width: 150px;
     left: 56px;
@@ -264,12 +276,24 @@ em{
     max-width: 70%;
     z-index: 105;
 }
+
+#console_cnous{
+    position: absolute;
+    max-width: 70%;
+    top: 25%;
+    left: 20%;
+}
+
 .typewriter{
     color: #1A1A1A;
     font-family: 'Roboto Mono', monospace;
     font-size: 1em;
     font-weight: 400;
     line-height: 20px;
+}
+
+.type_cnous{
+    color: #FF0040;
 }
 
 .caret{
@@ -281,6 +305,9 @@ em{
     -o-animation: blink 1s infinite linear;
 }
 
+.caret_cnous{
+    background: #FF0040;
+}
 @keyframes blink {
     0% { opacity: 1; }
     25% { opacity: 0; }
@@ -292,3 +319,109 @@ em{
 @-ms-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}
 @-moz-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}
 @-o-keyframes blink {0% { opacity: 1; }25% { opacity: 0; }50% { opacity: 0; }100% { opacity: 1; }}
+
+/* ========================= INTRO CNOUS =============================== */
+
+.intro{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    max-width: 800px;
+    height: auto;
+    font-size: 2.4em;
+    line-height: 60px;
+    font-weight: 500;
+    color: #1A1A1A;
+    opacity: 0;
+    animation: text .7s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text {0%{top: 35%; opacity: 0;} 100%{top: 30%; opacity: 1;}}
+
+.intro a{
+    text-decoration: none;
+    color: #FF0040;
+}
+
+.smart_txt{
+    padding: 0 4px;
+    background: #1A1A1A;
+    cursor: pointer;
+    font-weight: 300;
+    transition: .3s ease;
+}
+.smart_txt:hover{
+    color: #FFF;
+    font-weight: 300;
+}
+
+.smart_txt ul{
+    display: none;
+    position: absolute;
+    background: #5A5A5A;
+    padding: 0 4px;
+    margin-top: 53px;
+}
+
+.com ul{
+    margin-left: -260px;
+}
+
+.com ul.active{
+    display: inline;
+}
+
+.human ul{
+    margin-left: -155px;   
+}
+
+.human ul.active{
+    display: inline;
+}
+
+.evolve ul{
+    margin-left: -140px;
+}
+
+.evolve ul.active{
+    display: inline;
+}
+
+.hey ul{
+    margin-left: -145px;
+}
+.hey ul img{
+    width: 30px;
+    padding: 10px 10px 0px 10px;
+}
+
+.hey ul.active{
+    display: inline;
+}
+/* ========================= AFFORDANCE =============================== */
+
+.affordance{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brain{
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+/* ========================= PORTRAIT =============================== */
+
+.intro_nous{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
