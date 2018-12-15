@@ -422,6 +422,138 @@ em{
 .intro_nous{
     position: absolute;
     top: 150%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.description{
+    position: absolute;
+    transform: translateY(-50%);
+    max-width: 250px;
+}
+
+.cindy{
+    left: 10%;
+}
+
+.cecilia{
+    right: 10%;
+}
+
+.portrait{
+    position: absolute;
+    top: 150%;
     left: 50%;
-    transform: translate(-50%, -100%);
+}
+
+.portrait img{
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.img_cindy{
+    left: -50px;
+}
+
+.img_cecilia{
+    left: 50px;
+}
+
+.line_portrait{
+    position: absolute;
+    top: 1230px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 20%;
+    height: 1px;
+    background: #1A1A1A;
+}
+
+.dot_portrait{
+    display: block;
+    background: #1A1A1A;
+    width: 14px;
+    height: 14px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1224px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.dot_portrait:hover{
+    background: #FF0040;
+}
+
+.dot_portrait:nth-child(3){
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot_portrait:nth-child(2){
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.dot_portrait:nth-child(4){
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+/* ========================= PORTRAIT SMART TXT=============================== */
+
+.description .smart_txt ul{
+    margin-top: 26px;
+}
+
+.pixel ul{
+    margin-left: -43px;
+}
+
+.pixel ul.active{
+    display: inline;
+}
+
+.inno ul{
+    margin-left: -87px;
+}
+
+.inno ul.active{
+    display: inline;
+}
+
+.ux ul{
+    margin-left: -87px;
+}
+
+.ux ul.active{
+    display: inline;
+}
+
+.mac ul{
+    margin-left: -83px;
+}
+
+.mac ul.active{
+    display: inline;
+}
+
+.placard ul{
+    margin-left: -152px;
+}
+
+.placard ul.active{
+    display: inline;
+}
+
+.md ul{
+    margin-left: -195px;
+}
+
+.md ul.active{
+    display: inline;
 }

@@ -2,20 +2,37 @@
     .intro{top: 40%; left: 25%;}
     @keyframes text {0%{top: 45%; opacity: 0;} 100%{top: 40%; opacity: 1;}}
     #console_cnous{top: 35%; left: 25%;}
+    .line_portrait{top: 1600px;}
+    .dot_portrait{top: 1594px;}
 }
 
 @media screen and (max-width:780px){
     .intro{max-width: 600px; left: 15%; top: 35%;}
     @keyframes text {0%{top: 40%; opacity: 0;} 100%{top: 35%; opacity: 1;}}
     #console_cnous{left: 15%; top: 30%;}
+    .line_portrait{top: 1470px;}
+    .dot_portrait{top: 1464px;}
+    .portrait{top: 120%;}
+    .intro_nous{font-size: 1em; top: 140%;}
+    .description{transform: translateY(50%);}
 }
 
 @media screen and (max-width:420px){
     #console_cnous{left: 20%;}
     .intro{font-size: 1.2em; line-height: 30px; max-width: 250px; left: 20%;}
-    .affordance{width: 50px; bottom: 64px;}
+    .affordance{width: 50px; bottom: 85px;}
     .brain{width: 50px;}
     .down_arrow{width: 20px; margin-left: 14px;}
+    .portrait img{width: 200px;}
+    .portrait{top: 125%;}
+    .img_cindy{left: -25px;}
+    .img_cecilia{left: 25px;}
+    .intro_nous{line-height: 20px; top: 150%;}
+    .cindy{left: 20%; top: 15%;}
+    .cecilia{right: 20%; top: -25%;}
+    .line_portrait, .dot_portrait{display: none;}
+    
+
 }
 
 
@@ -40,5 +57,9 @@
     #logo_page{width: 40px; top: 35px; left: 35px;}
     .intro{font-size: 1em; line-height: 25px; max-width: 250px; left: 15%;}
     #console_cnous{left: 15%;}
+    .intro_nous{font-size: .8em; top: 180%;}
+    .description{max-width: 200px;}
+    .cecilia{left: 20%; top: -75%;}
+    .cindy{top: -20%;}
 }
 
