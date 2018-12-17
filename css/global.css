@@ -222,7 +222,6 @@ em{
     position: fixed;
     top: 50px;
     left: 50px;
-    width: 60px;
 }
 
 /* ========================= UFO =============================== */
@@ -426,6 +425,7 @@ em{
     height: 50%;
     font-size: 1.2em;
     line-height: 30px;
+    color: #1A1A1A;
 }
 
 .description{
@@ -462,15 +462,29 @@ em{
     left: 50px;
 }
 
-.line_portrait{
-    position: absolute;
-    top: 1230px;
+#portrait_line{
+    position: relative;
+    top: 185%;
+    display: flex;
+    width: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
     left: 50%;
     transform: translateX(-50%);
+    height: 14px;
+    
+}
+
+.line_portrait{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: block;
     width: 20%;
     height: 1px;
     background: #1A1A1A;
+    
 }
 
 .dot_portrait{
@@ -480,9 +494,9 @@ em{
     height: 14px;
     border-radius: 20px;
     position: absolute;
-    top: 1224px;
     cursor: pointer;
     transition: .3s ease;
+    
 }
 
 .dot_portrait:hover{

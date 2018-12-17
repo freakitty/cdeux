@@ -2,16 +2,21 @@
     .intro{top: 40%; left: 25%;}
     @keyframes text {0%{top: 45%; opacity: 0;} 100%{top: 40%; opacity: 1;}}
     #console_cnous{top: 35%; left: 25%;}
-    .line_portrait{top: 1600px;}
-    .dot_portrait{top: 1594px;}
+    #portrait_line{top: 175%;}
+}
+
+@media screen and (max-width:1024px){
+    .portrait{top: 120%;}
+     #portrait_line{top: 135%;}
+    .intro_nous{height: 30%;}
+    .intro{max-width: 750px; left: 15%;}
 }
 
 @media screen and (max-width:780px){
     .intro{max-width: 600px; left: 15%; top: 35%;}
     @keyframes text {0%{top: 40%; opacity: 0;} 100%{top: 35%; opacity: 1;}}
     #console_cnous{left: 15%; top: 30%;}
-    .line_portrait{top: 1470px;}
-    .dot_portrait{top: 1464px;}
+    #portrait_line{top: 140%;}
     .portrait{top: 120%;}
     .intro_nous{font-size: 1em; top: 140%;}
     .description{transform: translateY(50%);}
