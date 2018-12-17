@@ -10,6 +10,7 @@
      #portrait_line{top: 135%;}
     .intro_nous{height: 30%;}
     .intro{max-width: 750px; left: 15%;}
+    #Vulcan-Salute{fill: #00FF21;}
 }
 
 @media screen and (max-width:780px){
@@ -36,6 +37,7 @@
     .cindy{left: 20%; top: 15%;}
     .cecilia{right: 20%; top: -25%;}
     .line_portrait, .dot_portrait{display: none;}
+    .mail svg{width: 135px;}
     
 
 }
@@ -66,5 +68,8 @@
     .description{max-width: 200px;}
     .cecilia{left: 20%; top: -75%;}
     .cindy{top: -20%;}
+    #typewriter_contact{font-size: .6em; line-height: 15px;}
+    .console_contact{width: 200px;}
+    .mail svg{width: 105px;}
 }
 

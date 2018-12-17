@@ -341,6 +341,11 @@ em{
 .intro a{
     text-decoration: none;
     color: #FF0040;
+    transition: .3s ease;
+}
+
+.intro a:hover{
+    color: #1A1A1A;
 }
 
 .smart_txt{
@@ -567,4 +572,21 @@ em{
 
 .md ul.active{
     display: inline;
+}
+
+/* ========================= MAIL =============================== */
+
+.mail{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 142;
+}
+
+#Vulcan-Salute{
+    transition: .3s ease-in-out;
+}
+.mail:hover #Vulcan-Salute{
+    fill: #00FF21;
 }
