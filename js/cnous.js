@@ -13,7 +13,7 @@ var tw = typewriter(twSpan).withAccuracy(95)
 tw.type('You are not alone');
 
 /* ============================= BURGER ================================ */
-$(function () {
+$(window).on('load', function () {
     "use strict";
 
     function getH() {return window.location.hash; }

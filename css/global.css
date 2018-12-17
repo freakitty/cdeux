@@ -472,7 +472,6 @@ em{
     left: 50%;
     transform: translateX(-50%);
     height: 14px;
-    
 }
 
 .line_portrait{
@@ -483,8 +482,7 @@ em{
     display: block;
     width: 20%;
     height: 1px;
-    background: #1A1A1A;
-    
+    background: #1A1A1A;  
 }
 
 .dot_portrait{
@@ -496,7 +494,6 @@ em{
     position: absolute;
     cursor: pointer;
     transition: .3s ease;
-    
 }
 
 .dot_portrait:hover{

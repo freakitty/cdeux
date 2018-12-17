@@ -18,7 +18,7 @@
     #console_cnous{left: 15%; top: 30%;}
     #portrait_line{top: 140%;}
     .portrait{top: 120%;}
-    .intro_nous{font-size: 1em; top: 140%;}
+    .intro_nous{font-size: 1em; top: 140%; height: 50%;}
     .description{transform: translateY(50%);}
 }
 
