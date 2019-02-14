@@ -20,18 +20,14 @@
 </head>
 <body>
      
-    <main>
+    <main class="main">
       
         <!-- ====================== CADRE ========================== -->             
        <span class="cadre"></span>
        <span class="cadre" id="bottom"></span>
        <span class="cadre" id="left"></span>
        <span class="cadre" id="right"></span>
-       
-       
-        <!-- ====================== LINES ========================== --> 
-        
-        <img src="images/lines_bg.svg" alt="lines" class="lines">   
+         
        
         <!-- ====================== BURGER ========================== -->
         
@@ -66,14 +62,10 @@
             </div>
             
         </div>
-           
-        <!-- ======================= UFO ======================== -->
-        
-        <img src="images/UFO-02.svg" alt="UFO" id="ufo">
         
         <!-- ====================== LOGO ========================== -->
             
-        <img src="images/logo_black.png" alt="logo" id="logo_home">
+        <a href="index.html"><img src="images/logo.png" alt="logo" id="logo_page"></a>
 
        <!-- ======================= SOCIAL NETWORK ======================== -->
        
@@ -85,15 +77,63 @@
         </div>
         
         <!-- ====================== CATCH PHRASE ========================== -->
-        <div id="console">
-        <span id="typewriter" class="typewriter"></span>    
-        <span class="caret">&nbsp;</span>
+        <div class="box">
+        
+        <!-- ====================== VIDEO ========================== -->
+        
+        
+        
+        <!-- ====================== AFFORDANCE ========================== -->
+            <div class="affordance tarifs">
+                <img src="images/atome_affo.svg" alt="affordance" class="atome_affo">
+                <img src="images/down_arrow.svg" alt="down arrow" class="down_arrow arrow_tarifs">
+            </div>
         </div>
+        <!-- ====================== PAGE SATURN ========================== -->
+        <div class="box under">
+            <img src="images/saturn.svg" alt="saturn" class="saturn_atome li">
+            <div class="print_price txt_devis li">
+                <h2><span></span>print</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                <a href="mailto:bonjour@atelierc2.fr"><div class="btn_devis">Devis</div></a>
+            </div>
+            <div class="web_price txt_devis li">
+                <h2><span></span>web</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                <a href="mailto:bonjour@atelierc2.fr"><div class="btn_devis">Devis</div></a>
+            </div>
+            <div class="affordance tarifs affo_tarifs">
+                <img src="images/atome_affo.svg" alt="affordance" class="atome_affo">
+                <img src="images/down_arrow.svg" alt="down arrow" class="down_arrow arrow_tarifs">
+            </div>
+            
+        </div>
+        
+        <!-- ====================== PAGE ATOME ========================== -->
+        
+        <div class="box under">
+            <div class="console_tarifs li">
+                <span id="typewriter" class="typewriter type_tarifs"></span>    
+                <span class="caret caret_tarifs">&nbsp;</span>
+            </div>
+            <img src="images/atome.svg" alt="atome" class="saturn_atome li">
+            <ul>
+                <li class="li"></li>
+                <li class="li"></li>
+                <li class="li"></li>
+                <li class="li"></li>
+                <li class="li"></li>
+                <li class="li"></li>
+            </ul>
+            </div>
+        
+        
+        
         
     </main>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/typewriter-bundle.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
-    <script src="js/moteur.js"></script>
+    <script src="js/tarifs.js"></script>
 </body>
 </html>

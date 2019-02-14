@@ -12,7 +12,9 @@
         <g id="TARIFS-02" transform="translate(-102.000000, -270.000000)">
             <g id="saturne" transform="translate(104.000000, 270.000000)">
                 <circle id="Oval-2" fill="url(#radialGradient-1)" cx="201" cy="140" r="140"></circle>
-                <ellipse id="Oval-5" stroke="#0012FF" stroke-width="3" cx="200.5" cy="140.5" rx="200.5" ry="63.5"></ellipse>
+                <ellipse id="Oval-5" stroke="#0012FF" stroke-width="4" cx="200.5" cy="140.5" rx="200.5" ry="63.5"></ellipse>
+                <ellipse id="Oval-5" stroke="#0012FF" stroke-width="4" cx="200.5" cy="129.5" rx="200.5" ry="63.5"></ellipse>
+                <ellipse id="Oval-5" stroke="#0012FF" stroke-width="4" cx="200.5" cy="150.5" rx="200.5" ry="63.5"></ellipse>
             </g>
         </g>
     </g>

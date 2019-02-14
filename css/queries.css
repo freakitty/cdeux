@@ -23,7 +23,21 @@
     .description{transform: translateY(50%);}
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:480px){
+    .menu_line{left: 80%; width: 1px; height: 60%; top: 20%;}
+    .dot:nth-child(6), #navbar ul li:nth-child(1){top: 20%;transform: translate(-50%, -50%); }
+    .dot:nth-child(2), #navbar ul li:nth-child(2){top: 35%;transform: translate(-50%, -50%); }
+    .dot:nth-child(3), #navbar ul li:nth-child(3){top: 50%;transform: translate(-50%, -50%); }
+    .dot:nth-child(4), #navbar ul li:nth-child(4){top: 65%;transform: translate(-50%, -50%);}
+    .dot:nth-child(5), #navbar ul li:nth-child(5){top: 80%;transform: translate(-50%, -50%);}
+    .dot:nth-child(6){left: 80%;}
+    .dot:nth-child(2){left: 80%;}
+    .dot:nth-child(3){left: 80%;}
+    .dot:nth-child(4){left: 80%;}
+    #navbar ul li:nth-child(1){left: 50%;}
+    #navbar ul li:nth-child(2){left: 50%;}
+    #navbar ul li:nth-child(4){left: 50%;}
+    #navbar ul li:nth-child(5){left: 50%;}
     #console_cnous{left: 20%;}
     .intro{font-size: 1.2em; line-height: 30px; max-width: 250px; left: 20%;}
     .affordance{width: 50px; bottom: 85px;}
@@ -47,6 +61,11 @@
     .cadre{height: 20px;}
     span#left, span#right{width: 20px;}
     .hamburger-button{top: 20px;}
+    #navbar ul li:nth-child(1){left: 44%;}
+    #navbar ul li:nth-child(2){left: 44%;}
+    #navbar ul li:nth-child(3){left: 44%;}
+    #navbar ul li:nth-child(4){left: 44%;}
+    #navbar ul li:nth-child(5){left: 44%;}
     #logo_home{width: 30%;}
     #ufo{width: 18%; left: 20%; top: 20%;}
     @keyframes fly {0% {top: -100px; left: 10%;}
@@ -56,11 +75,6 @@
     #console{max-width: 100%; bottom: 20%;}
     #navbar ul{font-size: 1em;}
     em{font-size: .7em;}
-    .menu_line{width: 80%;}
-    .dot:nth-child(6), #navbar ul li:nth-child(1){left: 10%;}
-    .dot:nth-child(2), #navbar ul li:nth-child(2){left: 30%;}
-    .dot:nth-child(4), #navbar ul li:nth-child(4){left: 70%;}
-    .dot:nth-child(5), #navbar ul li:nth-child(5){left: 90%;}
     #logo_page{width: 40px; top: 35px; left: 35px;}
     .intro{font-size: 1em; line-height: 25px; max-width: 250px; left: 15%;}
     #console_cnous{left: 15%;}
