@@ -289,7 +289,7 @@ em{
     position: absolute;
     max-width: 70%;
     top: 15%;
-    left: 45%;
+    left: 42%;
 }
 
 .typewriter{
@@ -697,18 +697,20 @@ h2{
 li .btn_devis{
     width: 100px;
     height: 25px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 50px;
     line-height: 25px;
     font-size: .8em;
 }
+li .last_btn{margin-top: 15px;}
 
 li img{
     margin: 5px;
+    box-shadow: none;
 }
 
 li p{
-    font-size: .8em;
+    font-size: .75em;
     font-weight: 200;
     text-align: center;
     margin-top: 10px;
@@ -728,13 +730,13 @@ b{
 .box ul{
     position: absolute;
     top: 36%;
-    left: 45%;
+    left: 42%;
     max-width: 754px;
 }
 .box li{
     display: inline-block;
     vertical-align: top;
-    width: 200px;
+    width: 210px;
     height: 230px;
     background: #F0F0F0;
     margin: 5px 5px;
@@ -819,12 +821,12 @@ b{
 /* ========================= VIDEO =============================== */
 
 #bgvid{
-    width: 900px;
-    height: 500px;
+    max-width: 70%;
+    max-height: auto;
     position: absolute;
     display: inline-block;
     top: 48%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 60;
+    z-index: -10;
 }

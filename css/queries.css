@@ -3,6 +3,12 @@
     @keyframes text {0%{top: 45%; opacity: 0;} 100%{top: 40%; opacity: 1;}}
     #console_cnous{top: 35%; left: 25%;}
     #portrait_line{top: 175%;}
+    .saturn_atome{left: 13%;}
+    .txt_devis{right: 13%;}
+    .box ul{left: 46%;}
+    .box li{margin: 10px 10px;}
+    .console_tarifs{left: 46%; top: 18%;}
+    .btn_devis{margin-top:15px;}
 }
 
 @media screen and (max-width:1024px){
@@ -11,6 +17,8 @@
     .intro_nous{height: 30%;}
     .intro{max-width: 750px; left: 15%;}
     #Vulcan-Salute{fill: #00FF21;}
+    .box ul{left: 50%;}
+    .console_tarifs{left: 50%;}
 }
 
 @media screen and (max-width:780px){
@@ -21,6 +29,13 @@
     .portrait{top: 120%;}
     .intro_nous{font-size: 1em; top: 140%; height: 50%;}
     .description{transform: translateY(50%);}
+    #bgvid{max-width: 85%;}
+    .print_price{top:47%; left: 30%;}
+    .web_price{left: 30%;}
+    .saturn_atome{width: 300px; top: 23%; left: 30%;}
+    .box ul{left: 6%; max-width: 90%; top: 55%;}
+    .box li{width: 205px;}
+    .console_tarifs{left: 27%;}
 }
 
 @media screen and (max-width:480px){
@@ -52,6 +67,19 @@
     .cecilia{right: 20%; top: -25%;}
     .line_portrait, .dot_portrait{display: none;}
     .mail svg{width: 135px;}
+    .atome_affo{display: none;}
+    .saturn_atome{width: 200px; left: 26%;}
+    h2{font-size: 2.5em;}
+    .txt_devis p{font-size: .8em;}
+    .print_price, .web_price{left: 20%; max-width: 70%;}
+    .box li{width: 260px; height: 175px;}
+    li p{line-height: 9px; margin-top: 1px;}
+    li .btn_devis {margin-left: 77px;}
+    li img{margin: 5px 25px;}
+    h3{left: 69px;}
+    .last_btn{margin-top: -10px;}
+    .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%);}
+    .console_tarifs{top: 42%; left: 21%;}
     
 
 }
@@ -85,5 +113,17 @@
     #typewriter_contact{font-size: .6em; line-height: 15px;}
     .console_contact{width: 200px;}
     .mail svg{width: 105px;}
+    .saturn_atome{width: 100px; left: 33%;}
+    h2{font-size: 1.2em;}
+    .btn_devis{height: 25px; line-height: 25px; margin-top: 5px; width: 60px;font-size: 12px;}
+    .txt_devis p{margin-top: 5px; font-size: .7em;}
+    .affordance{bottom: 55px;}
+    .txt_devis span{height: 2px;}
+    .print_price{top: 45%;}
+    .box li{width: 240px;}
+    .console_tarifs{top: 40%;}
+    .box ul{top: 65%;}
+    li .last_btn{margin-top: -10px;}
+    
 }
 
