@@ -53,13 +53,8 @@ $(function () {
         }
     });
     
-    /* ============================= AFFORDANCE ================================ */
     
-    $(window).scroll(function () {
-        $(".affo_tarifs").css("opacity", 1 - $(window).scrollTop() / 250);
-    });
-    
-    
+    /* ============================= BOX ================================ */
     
     function hasClass(el, className) {
    if (el.classList)
@@ -149,4 +144,10 @@ function removeClass(el, className) {
 	}, false)
    document.addEventListener('wheel', handleScroll)
 })()
+    
+       /* ============================= AFFORDANCE ================================ */
+    
+    $(window).scroll(function () {
+        $(".affo_tarifs").css("opacity", 1 - $(window).scrollTop() / 250);
+    });
 });

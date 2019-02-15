@@ -222,6 +222,7 @@ em{
     position: fixed;
     top: 50px;
     left: 50px;
+    z-index: 100;
 }
 
 /* ========================= UFO =============================== */
@@ -247,6 +248,7 @@ em{
     bottom: 50px;
     width: 150px;
     left: 56px;
+    z-index: 107;
 }
 
 .instagram{
@@ -447,7 +449,6 @@ em{
 .arrow_tarifs{
     margin-left: 6px;
 }
-
 /* ========================= PORTRAIT =============================== */
 
 .intro_nous{
@@ -692,19 +693,53 @@ h2{
 .btn_devis:hover{
     background: #1A1A1A;
 }
+
+li .btn_devis{
+    width: 100px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 25px;
+    font-size: .8em;
+}
+
+li img{
+    margin: 5px;
+}
+
+li p{
+    font-size: .8em;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3{
+    position: absolute;
+    top: 20px;
+    left: 46px;
+    font-weight: 200;
+}
+
+b{
+    font-weight: 700;
+}
+
 .box ul{
     position: absolute;
-    top: 38%;
+    top: 36%;
     left: 45%;
     max-width: 754px;
 }
 .box li{
     display: inline-block;
+    vertical-align: top;
     width: 200px;
     height: 230px;
     background: #F0F0F0;
     margin: 5px 5px;
     box-shadow: 0 0 4px #CCC;
+    padding: 5px;
 }
 
 .li{
@@ -779,4 +814,21 @@ h2{
 }
 .box.above li:nth-child(6) {
   transition-delay: 0.6s;
+}
+
+/* ========================= VIDEO =============================== */
+
+.vid_container{
+    max-width: 900px;
+    max-height: 500px;
+    position: absolute;
+    display: inline-block;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#bgvid{
+    width: 900px;
+    z-index: 60;
 }
