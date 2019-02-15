@@ -55,7 +55,10 @@ $(function () {
     
     
     /* ============================= BOX ================================ */
-    
+    var mq = window.matchMedia( "(min-width: 780px)" );
+        if (mq.matches) {
+   
+
     function hasClass(el, className) {
    if (el.classList)
       return el.classList.contains(className);
@@ -144,7 +147,7 @@ function removeClass(el, className) {
 	}, false)
    document.addEventListener('wheel', handleScroll)
 })()
-    
+    }
        /* ============================= AFFORDANCE ================================ */
     
     $(window).scroll(function () {
