@@ -818,17 +818,13 @@ b{
 
 /* ========================= VIDEO =============================== */
 
-.vid_container{
-    max-width: 900px;
-    max-height: 500px;
+#bgvid{
+    width: 900px;
+    height: 500px;
     position: absolute;
     display: inline-block;
     top: 48%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-
-#bgvid{
-    width: 900px;
     z-index: 60;
 }
