@@ -223,6 +223,8 @@ em{
     top: 50px;
     left: 50px;
     z-index: 100;
+    width: 70px;
+
 }
 
 /* ========================= UFO =============================== */
@@ -234,11 +236,44 @@ em{
     left: 35%;
     z-index: 103;
     animation: fly .7s ease;
+    cursor: pointer;
 }
 
 @keyframes fly {
     0% {top: -100px; left: 20%;}
     100% {top: 15%; left: 35%;}
+}
+
+/* ========================= HIDDEN VIDEO =============================== */
+
+#vid_intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 150;
+    display: none;
+}
+
+#skip{
+    position: absolute;
+    color: #1A1A1A;
+    text-align: center;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;  
+    z-index: 200;
+    transition: .5s ease;
+    display: none;
+    background: #1A1A1A;
+    padding: 10px;
+    color: #f0f0f0;
+}
+
+#skip:hover{
+    color: #1A1A1A;
+    background: #f0F0F0;
 }
 
 /* ========================= SOCIAL NETWORK =============================== */
@@ -614,6 +649,7 @@ em{
 
 #Vulcan-Salute{
     transition: .3s ease-in-out;
+    opacity: 1;
 }
 .mail:hover #Vulcan-Salute{
     fill: #00FF21;

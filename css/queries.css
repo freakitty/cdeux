@@ -16,10 +16,22 @@
      #portrait_line{top: 135%;}
     .intro_nous{height: 30%;}
     .intro{max-width: 750px; left: 15%;}
-    #Vulcan-Salute{fill: #00FF21;}
+    #Vulcan-Salute{fill: #00FF21;animation: blink_hey 1s linear infinite;
+    -webkit-animation: blink_hey 1s infinite linear;
+    -ms-animation: blink_hey 1s infinite linear;
+    -moz-animation: blink_hey 1s infinite linear;
+    -o-animation: blink_hey 1s infinite linear;}}
     .box ul{left: 50%;}
     .console_tarifs{left: 50%;}
+    @keyframes blink_hey {0% { opacity: 1; } 50% { opacity: 0; }100% { opacity: 1; }
+    @-webkit-keyframes blink {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+    @-ms-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+    @-moz-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+    @-o-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
 }
+
+
+
 
 @media screen and (max-width:780px){
     .intro{max-width: 600px; left: 15%; top: 35%;}
@@ -80,7 +92,10 @@
     .last_btn{margin-top: -10px;}
     .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%);}
     .console_tarifs{top: 42%; left: 21%;}
-    
+    #ufo{width: 18%; left: 18%; top: 25%;}
+    @keyframes fly {0% {top: -100px; left: 5%;}
+    100% {top: 25%; left: 18%;}}
+    #logo_home{width: 30%;}
 
 }
 
@@ -94,8 +109,7 @@
     #navbar ul li:nth-child(3){left: 44%;}
     #navbar ul li:nth-child(4){left: 44%;}
     #navbar ul li:nth-child(5){left: 44%;}
-    #logo_home{width: 30%;}
-    #ufo{width: 18%; left: 20%; top: 20%;}
+    #ufo{left: 20%; top: 20%;}
     @keyframes fly {0% {top: -100px; left: 10%;}
     100% {top: 20%; left: 20%;}}
     .socialNetwork{bottom: 32px; left: 40px;}
