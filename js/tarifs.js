@@ -1,6 +1,8 @@
 /*jslint browser: true*/
+/*eslint browser: true*/
 /*global $, jQuery, TweenMax, TimelineMax, Power4*/
 /* jslint expr: true */
+/* eslint expr: true */
 
 /* ============================= TYPE ================================ */
 
@@ -139,12 +141,7 @@ function removeClass(el, className) {
 
    // first-load
    addClass(sections[currentSection], 'current')
-   document.addEventListener('keydown', (ev) => {
-		if (ev.keyCode === 38 || ev.keyCode === 40) {
-			ev.preventDefault()
-			return false
-		}
-	}, false)
+
    document.addEventListener('wheel', handleScroll)
 })()
     }
