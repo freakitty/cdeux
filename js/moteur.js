@@ -62,29 +62,24 @@ $(function () {
     
     
     var vid = document.getElementById('vid_intro');
-if (vid) {
-    vid.addEventListener('ended', function () {
-        'use strict';
-        $(this).css({'display': 'none'});
-        $('#skip').css({'display': 'none'});
-    });
-}
+    if (vid) {
+        vid.addEventListener('ended', function () {
+            $(this).css({'display': 'none'});
+            $('#skip').css({'display': 'none'});
+        });
+    }
     
     $('#skip').on('click', function () {
         $(this).css({'display': 'none'});
         $('#vid_intro').css({'display': 'none'});
     });
     
-        $("#ufo").on('click', function () {
+    $("#ufo").on('click', function () {
         $("#vid_intro").css('display', 'block');
         $("#skip").css('display', 'block');
-            
-        
+        if (vid.paused ) {
+          vid.play();    
+        }
     });
-    
-    var video = $("#vid_intro")[0];
-if (video.stop) {
-    video.play();
-}  
     
 });

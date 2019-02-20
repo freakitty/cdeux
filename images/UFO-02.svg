@@ -5,17 +5,14 @@
     <defs>
           <style type="text/css">
 
-
-
 	path {
 		filter: url(#filter);
      		}
-
 </style>
 		<filter id="filter">
-		    <feFlood flood-color="rgba(255,0,0,0)" result="black" />
-		    <feFlood flood-color="rgba(255,0,0,0)" result="flood1" />
-		    <feFlood flood-color="rgba(255,0,0,0)" result="flood2" />
+		    <feFlood flood-color="rgba(240,240,240,0)" result="black" />
+		    <feFlood flood-color="rgba(240,240,240,0)" result="flood1" />
+		    <feFlood flood-color="rgba(240,240,240,0)" result="flood2" />
 			<feOffset in="SourceGraphic" dx="1" dy="0" result="off1a"/>
 			<feOffset in="SourceGraphic" dx="1" dy="0" result="off1b"/>
 			<feOffset in="SourceGraphic" dx="1" dy="0" result="off2a"/>

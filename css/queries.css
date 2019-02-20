@@ -11,7 +11,7 @@
     .btn_devis{margin-top:15px;}
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1025px){
     .portrait{top: 120%;}
      #portrait_line{top: 135%;}
     .intro_nous{height: 30%;}
@@ -28,10 +28,8 @@
     @-ms-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-moz-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-o-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+    #skip{bottom: 30%;}
 }
-
-
-
 
 @media screen and (max-width:780px){
     .intro{max-width: 600px; left: 15%; top: 35%;}
@@ -48,6 +46,8 @@
     .box ul{left: 6%; max-width: 90%; top: 55%;}
     .box li{width: 205px;}
     .console_tarifs{left: 27%;}
+    #vid_intro{width: 70%;}
+    #skip{bottom: 30%;}
 }
 
 @media screen and (max-width:480px){
@@ -138,6 +138,7 @@
     .console_tarifs{top: 40%;}
     .box ul{top: 65%;}
     li .last_btn{margin-top: -10px;}
+    #skip{bottom: 25%; font-size: .9em;}
     
 }
 
