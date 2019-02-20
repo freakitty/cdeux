@@ -240,6 +240,7 @@ em{
 }
 
 .ufo{z-index: 100;}
+
 @keyframes fly {
     0% {top: -100px; left: 20%;}
     100% {top: 15%; left: 35%;}
