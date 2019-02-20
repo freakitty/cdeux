@@ -2,27 +2,11 @@
 /*global $, jQuery, TweenMax, TimelineMax, Power4*/
 /* jslint expr: true */
 
-/* ============================= TYPE ================================ */
-
-var typewriter = require('typewriter');
-var twSpan = document.getElementById('typewriter');
-var tw = typewriter(twSpan).withAccuracy(95)
-                             .withMinimumSpeed(5)
-                             .withMaximumSpeed(17)
-                             .build();
-tw.type('Hello world ')
-    .waitRange(500, 1000)
-    .put('<br/>')
-    .waitRange(1000, 1500)
-    .type('Ici C2')
-    .waitRange(1000, 1500)
-    .put('<br/>')
-    .type('Communication établie');
-
-/* ============================= BURGER ================================ */
 $(function () {
     "use strict";
 
+/* ============================= BURGER ================================ */
+    
     function getH() {return window.location.hash; }
     function setH(h) {window.location.hash = h; }
 
@@ -59,6 +43,26 @@ $(function () {
             $('.close_menu').css('display', 'none');
         }
     });
+    
+    
+    
+/* ============================= TYPE ================================ */
+
+var typewriter = require('typewriter');
+var twSpan = document.getElementById('typewriter');
+var tw = typewriter(twSpan).withAccuracy(95)
+                             .withMinimumSpeed(5)
+                             .withMaximumSpeed(17)
+                             .build();
+tw.type('Hello world ')
+    .waitRange(500, 1000)
+    .put('<br/>')
+    .waitRange(1000, 1500)
+    .type('Ici C2')
+    .waitRange(1000, 1500)
+    .put('<br/>')
+    .type('Communication établie');
+
     
     
     var vid = document.getElementById('vid_intro');
