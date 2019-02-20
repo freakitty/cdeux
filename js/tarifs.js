@@ -148,7 +148,7 @@ function removeClass(el, className) {
   if (window.matchMedia("(min-width: 780px)").matches) {
         document.addEventListener('wheel', handleScroll)
   } else {
-         window.addEventListener('scroll', this.handleScroll);
+         document.addEventListener('scroll', handleScroll);
   }  
     
     
