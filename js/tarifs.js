@@ -39,7 +39,7 @@ $(function () {
         }
     }
 
-    window.addEventListener("hashchange", console.log('test'));
+    window.addEventListener("hashchange");
     $("#burger").on('click', function () {
         if ($('#navbar').offset().top < 0) {
             tweenreset();

@@ -11,7 +11,7 @@
     .btn_devis{margin-top:15px;}
 }
 
-@media screen and (max-width:1025px){
+@media screen and (max-width:1024px), screen and (max-height: 1366px){
     .portrait{top: 120%;}
      #portrait_line{top: 135%;}
     .intro_nous{height: 30%;}
@@ -21,6 +21,7 @@
     -ms-animation: blink_hey 1s infinite linear;
     -moz-animation: blink_hey 1s infinite linear;
     -o-animation: blink_hey 1s infinite linear;}}
+    #skip{bottom: 30%;}
     .box ul{left: 50%;}
     .console_tarifs{left: 50%;}
     @keyframes blink_hey {0% { opacity: 1; } 50% { opacity: 0; }100% { opacity: 1; }
@@ -28,8 +29,10 @@
     @-ms-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-moz-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-o-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
-    #skip{bottom: 30%;}
+    
 }
+
+
 
 @media screen and (max-width:780px){
     .intro{max-width: 600px; left: 15%; top: 35%;}
