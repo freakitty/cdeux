@@ -96,7 +96,7 @@
     @keyframes fly {0% {top: -100px; left: 5%;}
     100% {top: 25%; left: 18%;}}
     #logo_home{width: 30%;}
-    .ufo{visibility: hidden;}
+    #ufo02{visibility: hidden;}
 
 }
 
