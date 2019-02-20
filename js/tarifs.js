@@ -57,9 +57,6 @@ $(function () {
     
     
     /* ============================= BOX ================================ */
-    var mq = window.matchMedia( "(min-width: 780px)" );
-        if (mq.matches) {
-   
 
     function hasClass(el, className) {
    if (el.classList)
@@ -141,10 +138,20 @@ function removeClass(el, className) {
 
    // first-load
    addClass(sections[currentSection], 'current')
-
-   document.addEventListener('wheel', handleScroll)
+   document.addEventListener('keydown', (ev) => {
+		if (ev.keyCode === 38 || ev.keyCode === 40) {
+			ev.preventDefault()
+			return false
+		}
+	}, false)
+    
+  if (window.matchMedia("(min-width: 780px)").matches) {
+        document.addEventListener('wheel', handleScroll)
+  } else {
+        document.addEventListener("wheel", doScroll, true)
+  }  
 })()
-    }
+    
        /* ============================= AFFORDANCE ================================ */
     
     $(window).scroll(function () {
