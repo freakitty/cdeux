@@ -486,6 +486,9 @@ em{
 .arrow_tarifs{
     margin-left: 6px;
 }
+
+.opacity{opacity: 0;}
+
 /* ========================= PORTRAIT =============================== */
 
 .intro_nous{

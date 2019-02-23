@@ -59,16 +59,16 @@ $(function () {
     /* ============================= BOX ================================ */
 
     function hasClass(el, className) {
-   if (el.classList)
-      return el.classList.contains(className);
-   else
-      return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
-}
+        if (el.classList)
+        return el.classList.contains(className);
+            else
+            return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
+    }
 
-function addClass(el, classNames) {
-   classNames = classNames.split(' ')
-   if (el.classList)
-      classNames.forEach((classname) => el.classList.add(classname))
+    function addClass(el, classNames) {
+        classNames = classNames.split(' ')
+        if (el.classList)
+        classNames.forEach((classname) => el.classList.add(classname))
    else if (!hasClass(el, className))
       classNames.forEach((classname) => el.className += " " + classname)
 }
@@ -150,13 +150,19 @@ function removeClass(el, className) {
   } else {
          document.addEventListener('scroll', handleScroll);
   }  
+           /* ============================= AFFORDANCE ================================ */
+    
+    $("html, body").bind("mousewheel", function(){
+        if ($('.current').hasClass("atome_page")) {
+            $(".affo_tarifs").css("opacity", '0')
+        } else {
+            $(".affo_tarifs").css("opacity", '1');
+        }
+    });
     
     
 })()
+
+    toView(getH());
     
-       /* ============================= AFFORDANCE ================================ */
-    
-    $(window).scroll(function () {
-        $(".affo_tarifs").css("opacity", 1 - $(window).scrollTop() / 250);
-    });
 });

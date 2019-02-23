@@ -186,4 +186,6 @@ $(function () {
         });
     });
     
+    toView(getH());
+    
 });

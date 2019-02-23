@@ -86,4 +86,5 @@ tw.type('Hello world ')
         }
     });
     
+    toView(getH());
 });
