@@ -26,7 +26,7 @@ $(function () {
     }
 
     function toMenu() {
-        TweenMax.to('#navbar', 0.7, {top: 0});
+        TweenMax.to('#navbar', 0.7, {top: '0%'});
     }
 
     function toView(route) {
@@ -147,10 +147,28 @@ function removeClass(el, className) {
 	}, false)
     
   if (window.matchMedia("(min-width: 780px)").matches) {
-        document.addEventListener('wheel', handleScroll)
+        document.addEventListener('wheel', handleScroll, {passive: false})
   } else {
-         document.addEventListener('scroll', handleScroll);
+         document.addEventListener('touchmove', handleScroll, {passive: false});
+      
   }  
+    let newSection 
+    var ts;
+$(document).bind('touchstart', function (e){
+   ts = e.originalEvent.touches[0].clientY;
+});
+
+$(document).bind('touchmove', function(e) {
+    var te = e.originalEvent.changedTouches[0].clientY;
+    if (ts > te) {
+        newSection = (currentSection < len - 1) ? currentSection + 1 : currentSection;
+        console.log('down');
+    } else {
+        newSection = (currentSection > 0) ? currentSection - 1 : currentSection;
+        console.log('up');
+    }
+});
+      
            /* ============================= AFFORDANCE ================================ */
     
     $("html, body").bind("mousewheel", function(){
