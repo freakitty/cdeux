@@ -9,6 +9,7 @@
     .box li{margin: 10px 10px;}
     .console_tarifs{left: 46%; top: 18%;}
     .btn_devis{margin-top:15px;}
+    #skip{bottom: 20%;}
 }
 
 @media screen and (max-width:1024px){
@@ -21,7 +22,6 @@
     -ms-animation: blink_hey 1s infinite linear;
     -moz-animation: blink_hey 1s infinite linear;
     -o-animation: blink_hey 1s infinite linear;}}
-    #skip{bottom: 30%;}
     .console_tarifs{left: 50%;}
     @keyframes blink_hey {0% { opacity: 1; } 50% { opacity: 0; }100% { opacity: 1; }
     @-webkit-keyframes blink {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
@@ -49,7 +49,6 @@
     .console_tarifs{left: 27%;}
     #vid_intro{width: 70%;}
     #skip{bottom: 30%;}
-    .current{overflow-y: hidden;}
 }
 
 @media screen and (max-width:480px){

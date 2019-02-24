@@ -91,6 +91,7 @@ function removeClass(el, className) {
    const handleScroll = (e) => {
       e.preventDefault()
 
+       
       let timeNow = Date.now(),
          delta = e.deltaY,
          newSection
