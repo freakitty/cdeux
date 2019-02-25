@@ -168,8 +168,7 @@ $(document).bind('touchmove', function(e) {
         console.log('up');
     }
 });
-      
-           /* ============================= AFFORDANCE ================================ */
+         /* ============================= AFFORDANCE ================================ */
     
     $("html, body").bind("mousewheel", function(){
         if ($('.current').hasClass("atome_page")) {
@@ -178,8 +177,6 @@ $(document).bind('touchmove', function(e) {
             $(".affo_tarifs").css("opacity", '1');
         }
     });
-    
-    
 })()
 
     toView(getH());
