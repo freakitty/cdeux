@@ -91,7 +91,7 @@
     li img{margin: 5px 25px;}
     h3{left: 69px;}
     .last_btn{margin-top: -10px;}
-    .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%);}
+    .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%); overflow-y: scroll;}
     .console_tarifs{top: 42%; left: 21%;}
     #ufo{width: 18%; left: 18%; top: 25%;}
     @keyframes fly {0% {top: -100px; left: 5%;}
