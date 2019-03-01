@@ -2,8 +2,6 @@
 /*global $, jQuery, TweenMax, TimelineMax, Power4*/
 /* jslint expr: true */
 
-
-
 $(function () {
     "use strict";
 
@@ -59,34 +57,14 @@ $(function () {
     tw.type('Hello world ')
         .waitRange(500, 1000)
         .put('<br/>')
+        .put('<br/>')
         .waitRange(1000, 1500)
-        .type('Ici C2')
+        .type('cette page est actuellement')
         .waitRange(1000, 1500)
         .put('<br/>')
-        .type('Communication établie');
+        .put('<br/>')
+        .type('EN CONSTRUCTION');
 
-    
-    
-    var vid = document.getElementById('vid_intro');
-    if (vid) {
-        vid.addEventListener('ended', function () {
-            $(this).css({'display': 'none'});
-            $('#skip').css({'display': 'none'});
-        });
-    }
-    
-    $('#skip').on('click', function () {
-        $(this).css({'display': 'none'});
-        $('#vid_intro').css({'display': 'none'});
-    });
-    
-    $("#ufo").on('click', function () {
-        $("#vid_intro").css('display', 'block');
-        $("#skip").css('display', 'block');
-        if (vid.paused) {
-            vid.play();
-        }
-    });
     
     toView(getH());
 });

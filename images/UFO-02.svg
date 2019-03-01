@@ -29,8 +29,8 @@
 					attributeName="y" 
 		    		id = "y"
 		    		dur ="3s"
-		    		begin="5s; 17s; 22s; 30s;"
-           end="7s; 19s; 24s; 32s;"
+		    		begin="5s; 12s; 19s; 26s;"
+           end="7s; 14s; 21s; 28s;"
                          restart="whenNotActive"
                            
 		    		values = '103px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
@@ -42,8 +42,8 @@
 				<animate attributeName="height" 
 		    		id = "h" 
 		    		dur ="3s"
-		    		begin=" 5s;  17s;"
-           end=" 7s; 19s;"
+		    		begin="5s; 12s; 19s; 26s;"
+           end="7s; 14s; 21s; 28s;"
                          restart="whenNotActive"
                          
 		    		values = '0px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
@@ -62,8 +62,8 @@
 				<animate attributeName="y" 
 		    		id = "y"
 		    		dur ="3s"
-                    begin=" 5s; 17s;"
-           end=" 7s; 19s;"
+                    begin="5s; 12s; 19s; 26s;"
+           end="7s; 14s; 21s; 28s;"
                          restart="whenNotActive"
                          
 		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
@@ -75,8 +75,8 @@
 				<animate attributeName="height" 
 		    		id = "h"
 		    		dur = "3s"
-					begin="5s; 17s;"
-           end=" 7s; 19s;"
+					begin="5s; 12s; 19s; 26s;"
+           end="7s; 14s; 21s; 28s;"
                          restart="whenNotActive"
                          
 					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'

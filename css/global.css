@@ -37,6 +37,17 @@ span#right{
     width: 100%;
 }
 
+.lines_white{
+    width: 100%;
+    z-index: -150;
+}
+
+.projet_line{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* ========================= BURGER =============================== */
 
 .hamburger-button{
@@ -305,12 +316,20 @@ em{
 
 /* ========================= TYPED =============================== */
 
-
 #console{
     position: absolute;
     bottom: 13%;
     left: 50%;
     transform: translateX(-50%);
+    max-width: 70%;
+    z-index: 105;
+}
+
+#console_projets{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width: 70%;
     z-index: 105;
 }
@@ -326,7 +345,8 @@ em{
     position: absolute;
     max-width: 70%;
     top: 15%;
-    left: 42%;
+    left: 52%;
+    margin-left: 7px;
 }
 
 .typewriter{
@@ -360,6 +380,10 @@ em{
 
 .caret_cnous{
     background: #FF0040;
+}
+
+.caret_projets{
+    background: #00FF21;
 }
 
 @keyframes blink {
@@ -677,13 +701,15 @@ em{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    left: 5%;
+    left: 8%;
+    z-index: 50;
 }
 
 .txt_devis{
     position: absolute;
     max-width: 400px;
-    right: 8%;
+    left: 58%;
+    z-index: 42;
 }
 
 .txt_devis span{
@@ -696,7 +722,9 @@ em{
 
 .txt_devis p{
     color: #1A1A1A;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 200;
+    line-height: 20px;
 }
 
 h2{
@@ -717,8 +745,8 @@ h2{
 }
 
 .btn_devis{
-    width: 120px;
-    height: 35px;
+    width: 100px;
+    height: 25px;
     background: #0012FF;
     border-radius: 30px;
     margin-top: 10px;
@@ -726,8 +754,10 @@ h2{
     vertical-align: middle;
     cursor: pointer;
     color: #FFF;
+    font-weight: 200;
+    font-size: .9em;
     text-decoration: none;
-    line-height: 35px;
+    line-height: 25px;
     transition: .3s ease;
 }
 
@@ -739,11 +769,11 @@ li .btn_devis{
     width: 100px;
     height: 25px;
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 68px;
     line-height: 25px;
     font-size: .8em;
 }
-li .last_btn{margin-top: 15px;}
+li .last_btn{margin-top: 10px;}
 
 li img{
     margin: 5px;
@@ -757,30 +787,47 @@ li p{
     margin-top: 10px;
 }
 
+
 h3{
     position: absolute;
     top: 20px;
-    left: 46px;
+    text-align: center;
     font-weight: 200;
+    width: 100%;
+}
+
+h4{
+    position: absolute;
+    top: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .75em; 
+    color: #0012FF;
 }
 
 b{
     font-weight: 700;
 }
 
+.box .lines_white{
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+
 .box ul{
     position: absolute;
     top: 36%;
-    left: 42%;
-    max-width: 754px;
+    left: 52%;
+    max-width: 600px;
 }
 .box li{
     display: inline-block;
     vertical-align: top;
-    width: 210px;
-    height: 230px;
+    width: 230px;
+    height: 210px;
     background: #F0F0F0;
-    margin: 5px 5px;
+    margin: 7px 7px;
     box-shadow: 0 0 4px #CCC;
     padding: 5px;
 }

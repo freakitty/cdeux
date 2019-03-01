@@ -12,22 +12,30 @@
     #skip{bottom: 20%;}
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1025px){
     .portrait{top: 120%;}
      #portrait_line{top: 135%;}
     .intro_nous{height: 30%;}
     .intro{max-width: 750px; left: 15%;}
+    #logo_home{width: 20%;}
+    #ufo, #ufo02{width: 12%; top: 20%; left: 25%;}
+    @keyframes fly {0% {top: -100px; left: 20%;}100% {top: 20%; left: 25%;}}
     #Vulcan-Salute{fill: #00FF21;animation: blink_hey 1s linear infinite;
     -webkit-animation: blink_hey 1s infinite linear;
     -ms-animation: blink_hey 1s infinite linear;
     -moz-animation: blink_hey 1s infinite linear;
     -o-animation: blink_hey 1s infinite linear;}}
-    .console_tarifs{left: 50%;}
     @keyframes blink_hey {0% { opacity: 1; } 50% { opacity: 0; }100% { opacity: 1; }
     @-webkit-keyframes blink {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-ms-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-moz-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-o-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+    .print_price{top:47%; left: 30%;}
+    .web_price{left: 30%;}
+    .saturn_atome{top: 23%; left: 30%;}
+    .box ul{left: 6%; max-width: 90%; top: 55%;}
+    .box li{width: 205px;}
+    .console_tarifs{left: 27%;}
 }
 
 
@@ -41,14 +49,9 @@
     .intro_nous{font-size: 1em; top: 140%; height: 50%;}
     .description{transform: translateY(50%);}
     #bgvid{max-width: 85%;}
-    .print_price{top:47%; left: 30%;}
-    .web_price{left: 30%;}
-    .saturn_atome{width: 300px; top: 23%; left: 30%;}
-    .box ul{left: 6%; max-width: 90%; top: 55%;}
-    .box li{width: 205px;}
-    .console_tarifs{left: 27%;}
     #vid_intro{width: 70%;}
     #skip{bottom: 30%;}
+    .saturn_atome{width: 300px;}
 }
 
 @media screen and (max-width:480px){
@@ -76,8 +79,8 @@
     .img_cindy{left: -25px;}
     .img_cecilia{left: 25px;}
     .intro_nous{line-height: 20px; top: 150%;}
-    .cindy{left: 20%; top: 15%;}
-    .cecilia{right: 20%; top: -25%;}
+    .cindy{left: 25%; top: 15%;}
+    .cecilia{left: 25%; top: -25%;}
     .line_portrait, .dot_portrait{display: none;}
     .mail svg{width: 135px;}
     .atome_affo{display: none;}
@@ -91,16 +94,21 @@
     li img{margin: 5px 25px;}
     h3{left: 69px;}
     .last_btn{margin-top: -10px;}
-    .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%); overflow-y: scroll;}
+    .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%);}
     .console_tarifs{top: 42%; left: 21%;}
     #ufo{width: 18%; left: 18%; top: 25%;}
     @keyframes fly {0% {top: -100px; left: 5%;}
     100% {top: 25%; left: 18%;}}
     #logo_home{width: 30%;}
     #ufo02{visibility: hidden;}
-
+    #console_projets{max-width: 34%;}
 }
 
+
+@media screen and (max-width:420px){
+    .cindy{left: 22%;}
+    .cecilia{left: 22%;}
+}
 
 @media screen and (max-width:380px){
     .cadre{height: 20px;}
@@ -124,20 +132,21 @@
     #console_cnous{left: 15%;}
     .intro_nous{font-size: .8em; top: 180%;}
     .description{max-width: 200px;}
-    .cecilia{left: 20%; top: -75%;}
-    .cindy{top: -20%;}
+    .cecilia{left: 23%; top: -75%;}
+    .cindy{top: -20%; left: 23%;}
     #typewriter_contact{font-size: .6em; line-height: 15px;}
     .console_contact{width: 200px;}
     .mail svg{width: 105px;}
-    .saturn_atome{width: 100px; left: 33%;}
+    .saturn_atome{width: 150px; left: 30%; top: 25%;}
     h2{font-size: 1.2em;}
     .btn_devis{height: 25px; line-height: 25px; margin-top: 5px; width: 60px;font-size: 12px;}
-    .txt_devis p{margin-top: 5px; font-size: .7em;}
+    .txt_devis p{margin-top: 5px; font-size: .7em; line-height: 15px;}
     .affordance{bottom: 55px;}
     .txt_devis span{height: 2px;}
-    .print_price{top: 45%;}
+    .print_price{top: 50%;}
+    .web_price{top: 73%;}
     .box li{width: 240px;}
-    .console_tarifs{top: 40%;}
+    .console_tarifs{top: 40%; left: 18%;}
     .box ul{top: 65%;}
     li .last_btn{margin-top: -10px;}
     #skip{bottom: 25%; font-size: .9em;}

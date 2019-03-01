@@ -24,7 +24,7 @@ $(function () {
     }
 
     function toMenu() {
-        TweenMax.to('#navbar', 0.7, {top: '0%'});
+        TweenMax.to('#navbar', 0.7, {top: '0px'});
     }
 
     function toView(route) {
@@ -143,7 +143,7 @@ $(function () {
 		}
 	}, false)
     
-    if (window.matchMedia("(min-width: 780px)").matches) {
+    if (window.matchMedia("(min-width: 1025px)").matches) {
         document.addEventListener('wheel', handleScroll, {passive: false})
     } else {
         document.addEventListener('touchmove', handleScroll, {passive: false});
@@ -163,13 +163,20 @@ $(function () {
             newSection = (currentSection < len - 1) ? currentSection + 1 : currentSection;
             console.log('down');
         } else {
-            newSection = (currentSection > len + 1) ? currentSection - 1 : currentSection;
+            newSection = (currentSection > 0) ? currentSection - 1 : currentSection;
             console.log('up');
         }
-    });
-         /* ============================= AFFORDANCE ================================ */
+    });  /* ============================= AFFORDANCE ================================ */
     
     $("html, body").bind("mousewheel", function(){
+        if ($('.current').hasClass("atome_page")) {
+            $(".affo_tarifs").css("opacity", '0')
+        } else {
+            $(".affo_tarifs").css("opacity", '1');
+        }
+    });
+        
+    $("html, body").bind("touchmove", function(){
         if ($('.current').hasClass("atome_page")) {
             $(".affo_tarifs").css("opacity", '0')
         } else {
