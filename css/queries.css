@@ -24,18 +24,20 @@
     -webkit-animation: blink_hey 1s infinite linear;
     -ms-animation: blink_hey 1s infinite linear;
     -moz-animation: blink_hey 1s infinite linear;
-    -o-animation: blink_hey 1s infinite linear;}}
-    @keyframes blink_hey {0% { opacity: 1; } 50% { opacity: 0; }100% { opacity: 1; }
+    -o-animation: blink_hey 1s infinite linear;}
+    @keyframes blink_hey {0% { opacity: 1; } 50% { opacity: 0; }100% { opacity: 1; }}
     @-webkit-keyframes blink {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-ms-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-moz-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     @-o-keyframes blink_hey {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
     .print_price{top:47%; left: 30%;}
     .web_price{left: 30%;}
-    .saturn_atome{top: 23%; left: 30%;}
-    .box ul{left: 6%; max-width: 90%; top: 55%;}
-    .box li{width: 205px;}
-    .console_tarifs{left: 27%;}
+    .saturn_atome{ width: 300px;top: 23%; left: 34%;}
+    .box ul{left: 23%; max-width: 800; top: 55%;}
+    .box li{width: 250px; height: 250px; margin: 12px 12px;}
+    .console_tarifs{top: 38%; left: 33%;}
+    li p{margin-top: 20px;}
+    li .btn_devis{margin-top: 25px;}
 }
 
 
@@ -51,8 +53,15 @@
     #bgvid{max-width: 85%;}
     #vid_intro{width: 70%;}
     #skip{bottom: 30%;}
-    .saturn_atome{width: 300px;}
+    .saturn_atome{left: 30%;}
+    .print_price, .web_price{left: 27%;}
+    .console_tarifs{top: 41%; left: 28%;}
+    .box li{width: 230px;height: 210px; margin: 7px 7px;}
+    li p{margin-top: 10px;}
+    li .btn_devis{margin-top: 15px;}
+    .box ul{left: 17%;}
 }
+
 
 @media screen and (max-width:480px){
     .menu_line{left: 80%; width: 1px; height: 60%; top: 20%;}
@@ -92,22 +101,24 @@
     li p{line-height: 9px; margin-top: 1px;}
     li .btn_devis {margin-left: 77px;}
     li img{margin: 5px 25px;}
-    h3{left: 69px;}
     .last_btn{margin-top: -10px;}
     .box ul{ max-width: 80%; left: 50%; top: 60%; transform: translateX(-50%);}
-    .console_tarifs{top: 42%; left: 21%;}
+    .console_tarifs{top: 38%; left: 21%;}
     #ufo{width: 18%; left: 18%; top: 25%;}
     @keyframes fly {0% {top: -100px; left: 5%;}
     100% {top: 25%; left: 18%;}}
     #logo_home{width: 30%;}
     #ufo02{visibility: hidden;}
     #console_projets{max-width: 34%;}
+    .saturn_atome{top: 22%;}
+    .print_price{top: 47%;}
 }
 
 
 @media screen and (max-width:420px){
     .cindy{left: 22%;}
     .cecilia{left: 22%;}
+    .saturn_atome{width: 150px; left: 32%; }
 }
 
 @media screen and (max-width:380px){
@@ -137,7 +148,7 @@
     #typewriter_contact{font-size: .6em; line-height: 15px;}
     .console_contact{width: 200px;}
     .mail svg{width: 105px;}
-    .saturn_atome{width: 150px; left: 30%; top: 25%;}
+    .saturn_atome{left: 30%; top: 25%;}
     h2{font-size: 1.2em;}
     .btn_devis{height: 25px; line-height: 25px; margin-top: 5px; width: 60px;font-size: 12px;}
     .txt_devis p{margin-top: 5px; font-size: .7em; line-height: 15px;}
@@ -147,9 +158,15 @@
     .web_price{top: 73%;}
     .box li{width: 240px;}
     .console_tarifs{top: 40%; left: 18%;}
-    .box ul{top: 65%;}
     li .last_btn{margin-top: -10px;}
     #skip{bottom: 25%; font-size: .9em;}
     
 }
 
+@media screen and (max-width:320px){
+    .saturn_atome{width: 120px; left: 32%;}
+    .console_tarifs{top: 42%;}
+    .box ul{top: 68%;}
+    .txt_devis p{font-size: .6em;margin-bottom: 5px;}
+    
+}

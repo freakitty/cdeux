@@ -179,6 +179,7 @@ $(function () {
     $("html, body").bind("touchmove", function(){
         if ($('.current').hasClass("atome_page")) {
             $(".affo_tarifs").css("opacity", '0')
+            $(document).css("overflow-y", 'scroll')
         } else {
             $(".affo_tarifs").css("opacity", '1');
         }

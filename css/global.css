@@ -233,7 +233,7 @@ em{
     position: fixed;
     top: 50px;
     left: 50px;
-    z-index: 100;
+    z-index: 106;
     width: 70px;
 
 }
@@ -738,10 +738,12 @@ h2{
 
 .print_price{
     top: 30%;
+    transform: translateY(-50%);
 }
 
 .web_price{
     top: 70%;
+    transform: translateY(-50%);
 }
 
 .btn_devis{
@@ -811,8 +813,9 @@ b{
 
 .box .lines_white{
     position: absolute;
-    top: 75%;
+    top: 79%;
     left: 0;
+    transform: translateY(-50%);
 }
 
 .box ul{
