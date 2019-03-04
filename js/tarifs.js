@@ -24,7 +24,7 @@ $(function () {
     }
 
     function toMenu() {
-        TweenMax.to('#navbar', 0.7, {top: '0px'});
+        TweenMax.to('#navbar', 0.7, {top: '0%'});
     }
 
     function toView(route) {
@@ -178,8 +178,7 @@ $(function () {
         
     $("html, body").bind("touchmove", function(){
         if ($('.current').hasClass("atome_page")) {
-            $(".affo_tarifs").css("opacity", '0')
-            $(document).css("overflow-y", 'scroll')
+            $(".affo_tarifs").css("opacity", '0')   
         } else {
             $(".affo_tarifs").css("opacity", '1');
         }

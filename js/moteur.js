@@ -17,7 +17,7 @@ $(function () {
     }
 
     function toMenu() {
-        TweenMax.to('#navbar', 0.7, {top: '0px'});
+        TweenMax.to('#navbar', 0.7, {top: '0%'});
     }
 
     function toView(route) {

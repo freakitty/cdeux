@@ -684,6 +684,18 @@ em{
     fill: #00FF21;
 }
 
+.num{
+    position: absolute;
+    right: -20px;
+    top: 110px;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: .8em;
+}
+.num:last-child{
+    right: 0px;
+}
+
 /* ========================= TARIFS =============================== */
 
 .box{

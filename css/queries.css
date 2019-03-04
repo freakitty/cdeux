@@ -38,6 +38,7 @@
     .console_tarifs{top: 38%; left: 33%;}
     li p{margin-top: 20px;}
     li .btn_devis{margin-top: 25px;}
+    #console{ bottom: 20%;}
 }
 
 
@@ -78,6 +79,7 @@
     #navbar ul li:nth-child(2){left: 50%;}
     #navbar ul li:nth-child(4){left: 50%;}
     #navbar ul li:nth-child(5){left: 50%;}
+    #console{ bottom: 13%;}
     #console_cnous{left: 20%;}
     .intro{font-size: 1.2em; line-height: 30px; max-width: 250px; left: 20%;}
     .affordance{width: 50px; bottom: 85px;}
@@ -121,7 +123,7 @@
     .saturn_atome{width: 150px; left: 32%; }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:385px){
     .cadre{height: 20px;}
     span#left, span#right{width: 20px;}
     .hamburger-button{top: 20px;}
@@ -160,6 +162,8 @@
     .console_tarifs{top: 40%; left: 18%;}
     li .last_btn{margin-top: -10px;}
     #skip{bottom: 25%; font-size: .9em;}
+    .num{top: 100px; right: -30px;}
+    .num:last-child{right: -5px;}
     
 }
 
@@ -168,5 +172,6 @@
     .console_tarifs{top: 42%;}
     .box ul{top: 68%;}
     .txt_devis p{font-size: .6em;margin-bottom: 5px;}
+    .num{font-size: .7em; top: 90px; right: -25px;}
     
 }
