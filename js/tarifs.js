@@ -93,7 +93,7 @@ $(function () {
             newSection,
             delta = e.deltaY
                   ? e.deltaY
-                  : ts - e.changedTouches[0].clientY
+                  : ts - e.touches[0].clientY
 
             if (timeNow - lastAnimation < 2000) {
                 return;
@@ -164,7 +164,19 @@ $(function () {
             newSection = (currentSection > 0) ? currentSection - 1 : currentSection;
             console.log('up');
         }
-    });  /* ============================= AFFORDANCE ================================ */
+    });
+
+    const tarifs = $('.box ul')
+    tarifs.bind('touchmove', e => {
+      if (window.matchMedia("(max-width: 480px)").matches) {
+        tarifs.css({marginTop: `+=${e.touches[0].clientY - ts}px`})
+        ts = e.touches[0].clientY
+
+        return false
+      }
+    })
+
+    /* ============================= AFFORDANCE ================================ */
 
     $("html, body").bind("mousewheel", function(){
         if ($('.current').hasClass("atome_page")) {
