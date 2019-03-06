@@ -52,8 +52,8 @@ $(function () {
             $('.close_menu').css('display', 'none');
         }
     });
-    
-    
+
+
     /* ============================= BOX ================================ */
 
     function hasClass(el, className) {
@@ -78,8 +78,8 @@ $(function () {
             var reg = new RegExp('(\\s|^)' + className + '(\\s|$)');
             el.className = el.className.replace(reg, ' ');
         }
-    }; 
-    
+    };
+
     (function() {
         let lastAnimation = 0,
             sections = Array.prototype.slice.call(document.querySelectorAll('.box')),
@@ -90,20 +90,22 @@ $(function () {
             e.preventDefault()
 
             let timeNow = Date.now(),
-                delta = e.deltaY,
-                newSection
+            newSection,
+            delta = e.deltaY
+                  ? e.deltaY
+                  : ts - e.changedTouches[0].clientY
 
             if (timeNow - lastAnimation < 2000) {
                 return;
             }
 
-            if (e.deltaY < 0) {
+            if (delta < 0) {
             // Up
                 newSection = (currentSection > 0) ? currentSection - 1 : currentSection
-            } else {
+            } else if (delta > 0) {
             // Down
                 newSection = (currentSection < len - 1) ? currentSection + 1 : currentSection
-            }
+            } else { newSection = currentSection }
 
             if (currentSection !== newSection) {
             // newSection is currentSection now
@@ -142,17 +144,13 @@ $(function () {
 			return false
 		}
 	}, false)
-    
-    if (window.matchMedia("(min-width: 1025px)").matches) {
-        document.addEventListener('wheel', handleScroll, {passive: false})
-    } else {
-        document.addEventListener('touchmove', handleScroll, {passive: false});
-      
-    }  
-        
-    let newSection 
+
+    document.addEventListener('wheel', handleScroll, {passive: false})
+    document.addEventListener('touchmove', handleScroll, {passive: false});
+
+    let newSection
     var ts;
-        
+
     $(document).bind('touchstart', function (e){
         ts = e.originalEvent.touches[0].clientY;
     });
@@ -167,7 +165,7 @@ $(function () {
             console.log('up');
         }
     });  /* ============================= AFFORDANCE ================================ */
-    
+
     $("html, body").bind("mousewheel", function(){
         if ($('.current').hasClass("atome_page")) {
             $(".affo_tarifs").css("opacity", '0')
@@ -175,17 +173,17 @@ $(function () {
             $(".affo_tarifs").css("opacity", '1');
         }
     });
-        
+
     $("html, body").bind("touchmove", function(){
         if ($('.current').hasClass("atome_page")) {
-            $(".affo_tarifs").css("opacity", '0')   
+            $(".affo_tarifs").css("opacity", '0')
         } else {
             $(".affo_tarifs").css("opacity", '1');
         }
     });
-        
+
 })()
 
     toView(getH());
-    
+
 });
