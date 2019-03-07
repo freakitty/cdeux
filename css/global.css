@@ -714,7 +714,7 @@ em{
     top: 50%;
     transform: translateY(-50%);
     left: 8%;
-    z-index: 50;
+    width: 35%;
 }
 
 .txt_devis{
@@ -735,8 +735,10 @@ em{
 .txt_devis p{
     color: #1A1A1A;
     margin-bottom: 15px;
-    font-weight: 200;
-    line-height: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family:  'Roboto Mono', monospace;
+    font-size: .9em;
 }
 
 h2{
@@ -795,10 +797,12 @@ li img{
 }
 
 li p{
-    font-size: .75em;
-    font-weight: 200;
+    font-size: .6em;
+    font-weight: 300;
     text-align: center;
     margin-top: 10px;
+    font-family: 'Roboto mono', monospace;
+    line-height: 15px;
 }
 
 

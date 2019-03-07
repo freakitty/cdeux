@@ -5,11 +5,11 @@
     #portrait_line{top: 175%;}
     .saturn_atome{left: 13%;}
     .txt_devis{right: 13%;}
-    .box ul{left: 46%;}
-    .box li{margin: 10px 10px;}
+    .box li{margin: 15px 15px;}
     .console_tarifs{left: 46%; top: 18%;}
     .btn_devis{margin-top:15px;}
     #skip{bottom: 20%;}
+    .console_tarifs{left: 53%;}
 }
 
 @media screen and (max-width:1025px){
@@ -100,7 +100,7 @@
     .txt_devis p{font-size: .8em;}
     .print_price, .web_price{left: 20%; max-width: 70%;}
     .box li{width: 260px; height: 175px;}
-    li p{line-height: 9px; margin-top: 1px;}
+    li p{line-height: 10px; margin-top: 1px;}
     li .btn_devis {margin-left: 77px;}
     li img{margin: 5px 25px;}
     .last_btn{margin-top: -10px;}
