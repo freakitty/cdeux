@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135913331-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-135913331-1');
+    </script>
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon.png">
     <!--[if IE]
@@ -9,9 +18,9 @@
     [endif]-->
     <title>C2 Atelier Design</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <meta name="description" content="Atelier de design, graphisme, digital, web sur Paris">
-    <meta name="keywords" content="designer, graphisme, motion, video, paris, france, webdesign, digitale, design, print, community management, atelier design, agence de communication">
-    <meta name="author" content="C2">
+    <meta name="description" content="C2 Atelier design, est une agence de conseil et de communication basée à Paris. Graphisme, print, digital, web, édition, branding">
+    <meta name="keywords" content="c2, designer, graphisme, motion, video, paris, france, webdesign, digitale, design, print, community management, atelier, design, agence de communication, édition, branding, social media">
+    <meta name="author" content="C2 atelier design">
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/global.css" type="text/css">
     <link rel="stylesheet" href="css/queries.css" type="text/css">
@@ -22,12 +31,12 @@
      
     <main>
       
-        <!-- ====================== CADRE ========================== -->             
+        <!-- ====================== CADRE ========================== -->
+                     
        <span class="cadre"></span>
        <span class="cadre" id="bottom"></span>
        <span class="cadre" id="left"></span>
        <span class="cadre" id="right"></span>
-       
        
         <!-- ====================== LINES ========================== --> 
         
@@ -56,11 +65,11 @@
                 <span class="dot"></span>
                 
                 <ul>
-                    <li><a href="index.html">ACCUEIL <br><em>Votre attérissage <br>s’est passé ici</em></a></li>
-                    <li><a href="cnous.html">C NOUS <br><em>Notre histoire,<br> venez en faire parti</em></a></li>
-                    <li><a href="projets.html">PROJETS <br><em>Nos réalisations <br>intersidérales</em></a></li>
-                    <li><a href="tarifs.html">SERVICES <br><em>Venez faire <br>votre devis</em></a></li>
-                    <li><a href="contact.html">CONTACT <br><em>Premier contact ?<br>Embarquez !</em></a></li>
+                    <li><a href="index">ACCUEIL <br><em>Votre attérissage <br>s’est passé ici</em></a></li>
+                    <li><a href="cnous">C NOUS <br><em>Notre histoire,<br> venez en faire parti</em></a></li>
+                    <li><a href="projets">PROJETS <br><em>Nos réalisations <br>intersidérales</em></a></li>
+                    <li><a href="tarifs">SERVICES <br><em>Venez faire <br>votre devis</em></a></li>
+                    <li><a href="contact">CONTACT <br><em>Premier contact ?<br>Embarquez !</em></a></li>
                 </ul>
                 
             </div>
@@ -71,13 +80,14 @@
         
         <img src="images/UFO-02.svg" alt="UFO" id="ufo02">
         <img src="images/UFO_safari.svg" alt="UFO" id="ufo">
+        
         <!-- ======================= HIDDEN VIDEO ======================== -->
         
         <video autoplay preload="auto" id="vid_intro">
-                <source src="video/intro_C.webm" type="video/webm">
-                <source src="video/intro_C2.ogv" type="video/ogv"> 
-                <source src="video/intro_C2.mp4" type="video/mp4">
-            </video>
+            <source src="video/intro_C.webm" type="video/webm">
+            <source src="video/intro_C2.ogv" type="video/ogv"> 
+            <source src="video/intro_C2.mp4" type="video/mp4">
+        </video>
         
         <span id="skip">PASSER</span>
         
@@ -95,12 +105,14 @@
         </div>
         
         <!-- ====================== CATCH PHRASE ========================== -->
+        
         <div id="console">
         <span id="typewriter" class="typewriter"></span>    
         <span class="caret">&nbsp;</span>
         </div>
         
     </main>
+    
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/typewriter-bundle.min.js"></script>
     <script src="js/TweenMax.min.js"></script>

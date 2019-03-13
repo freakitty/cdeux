@@ -6,10 +6,26 @@
     .saturn_atome{left: 13%;}
     .txt_devis{right: 13%;}
     .box li{margin: 15px 15px;}
-    .console_tarifs{left: 46%; top: 18%;}
+    .console_tarifs{left: 53%; top: 18%;}
     .btn_devis{margin-top:15px;}
     #skip{bottom: 20%;}
-    .console_tarifs{left: 53%;}
+}
+
+@media screen and (min-width: 1025px){
+    .item:nth-of-type(2n) {grid-column: 5;}
+    .item:nth-of-type(3n) {grid-column: 1;grid-row: 2;}
+    .item:nth-of-type(4n) {grid-column: 2;grid-row: 2;}
+    .item:nth-of-type(5n) {grid-column: 4;grid-row: 2;}
+    .item:nth-of-type(6n) {grid-column: 5;grid-row: 2;}
+    .item:nth-of-type(7n) {grid-column: 1;grid-row: 3;}
+    .item:nth-of-type(8n) {grid-column: 2;grid-row: 3;}
+    .item:nth-of-type(9n) {grid-column: 3;grid-row: 3;}
+    .item:nth-of-type(10n) {grid-column: 4;grid-row: 3;}
+    .item:nth-of-type(11n) {grid-column: 5;grid-row: 3;}
+    .item:nth-of-type(12n) {grid-column: 1;grid-row: 4;}
+    .item:nth-of-type(13n) {grid-column: 2;grid-row: 4;}
+    .item:nth-of-type(14n) {grid-column: 3; grid-row: 4;}
+    .grid{grid-template-columns: repeat(5, 1fr);}
 }
 
 @media screen and (max-width:1025px){
@@ -41,8 +57,6 @@
     #console{ bottom: 20%;}
 }
 
-
-
 @media screen and (max-width:780px){
     .intro{max-width: 600px; left: 15%; top: 35%;}
     @keyframes text {0%{top: 40%; opacity: 0;} 100%{top: 35%; opacity: 1;}}
@@ -61,8 +75,8 @@
     li p{margin-top: 10px;}
     li .btn_devis{margin-top: 15px;}
     .box ul{left: 17%;}
+    .section {padding: 4rem;}
 }
-
 
 @media screen and (max-width:480px){
     .menu_line{left: 80%; width: 1px; height: 60%; top: 20%;}
@@ -95,7 +109,7 @@
     .line_portrait, .dot_portrait{display: none;}
     .mail svg{width: 135px;}
     .atome_affo{display: none;}
-    .saturn_atome{width: 200px; left: 26%;}
+    .saturn_atome{width: 200px; left: 26%; top: 22%;}
     h2{font-size: 2.5em;}
     .txt_devis p{font-size: .8em;}
     .print_price, .web_price{left: 20%; max-width: 70%;}
@@ -112,16 +126,15 @@
     #logo_home{width: 30%;}
     #ufo02{visibility: hidden;}
     #console_projets{max-width: 34%;}
-    .saturn_atome{top: 22%;}
     .print_price{top: 47%;}
     li .last_btn{margin-top: -10px;}
+    .wrapper{width: 70%;}
 }
-
 
 @media screen and (max-width:420px){
     .cindy{left: 22%;}
     .cecilia{left: 22%;}
-    .saturn_atome{width: 150px; left: 32%; }
+    .saturn_atome{width: 150px; left: 32%;}
 }
 
 @media screen and (max-width:385px){
@@ -165,7 +178,6 @@
     #skip{bottom: 25%; font-size: .9em;}
     .num{top: 100px; right: -30px;}
     .num:last-child{right: -5px;}
-    
 }
 
 @media screen and (max-width:320px){

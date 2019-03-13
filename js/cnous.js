@@ -46,10 +46,12 @@ $(function () {
             toView('#navbar');
             $('.hamburger-button').css('display', 'none');
             $('.close_menu').css('display', 'block');
+            $('body').css('overflow-y','hidden')
         } else {
             toView('home');
             $('.hamburger-button').css('display', 'block');
             $('.close_menu').css('display', 'none');
+            $('body').css('overflow-y','scroll')
         }
     });
     

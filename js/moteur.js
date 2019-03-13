@@ -2,8 +2,6 @@
 /*global $, jQuery, TweenMax, TimelineMax, Power4*/
 /* jslint expr: true */
 
-
-
 $(function () {
     "use strict";
 

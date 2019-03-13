@@ -44,8 +44,6 @@ $(function () {
         }
     });
     
-    
-    
 /* ============================= TYPE ================================ */
 
     var typewriter = require('typewriter'),
@@ -54,16 +52,7 @@ $(function () {
                              .withMinimumSpeed(5)
                              .withMaximumSpeed(17)
                              .build();
-    tw.type('Hello world ')
-        .waitRange(500, 1000)
-        .put('<br/>')
-        .put('<br/>')
-        .waitRange(1000, 1500)
-        .type('cette page est actuellement')
-        .waitRange(1000, 1500)
-        .put('<br/>')
-        .put('<br/>')
-        .type('EN CONSTRUCTION');
+    tw.type('Nos réalisations. Bon voyage ');
 
     
     toView(getH());
