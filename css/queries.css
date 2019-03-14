@@ -55,6 +55,12 @@
     li p{margin-top: 20px;}
     li .btn_devis{margin-top: 25px;}
     #console{ bottom: 20%;}
+    .encart{width: 55%; height: 350px;}
+    .resume_project{width: 55%; top: 200px;}
+    .nav{top: -50px;font-size: 1em;}
+    .next{right: 50px;}
+    .previous{left: 50px;}
+    .black_bg{height: 60%;}
 }
 
 @media screen and (max-width:780px){
@@ -76,6 +82,12 @@
     li .btn_devis{margin-top: 15px;}
     .box ul{left: 17%;}
     .section {padding: 4rem;}
+    .encart{width: 100%;height: 50%;}
+    .encart{top: 0;left: 0;transform: translate(0%,0%);}
+    h1{position: absolute; margin: 0 0; top: 100%; left: 50%; transform: translate(-50%,-50%);}
+    .back{margin: 150px 0 0 50px; font-weight: 200;}
+    .nav{font-size:.9em; font-weight: 200;}
+    .resume_project{width: 100%; top: 80px;}
 }
 
 @media screen and (max-width:480px){
@@ -129,12 +141,25 @@
     .print_price{top: 47%;}
     li .last_btn{margin-top: -10px;}
     .wrapper{width: 70%;}
+    .nav{top: -100px;}
+    .nav p{display: none;}
+    .nav img{display: block;}
+    .back{font-size: .8em; transform: rotate(-90deg);margin: 190px 0 0 20px;}
+    .resume_project div div{margin: 0 15px 0 15px;}
+    .resume_project p{font-size: .8em;}
+    .resume_project{top: 70px;}
 }
 
 @media screen and (max-width:420px){
     .cindy{left: 22%;}
     .cecilia{left: 22%;}
     .saturn_atome{width: 150px; left: 32%;}
+    h1{font-size: 4em;}
+    .resume_project div div{margin: 0 10px 0 10px;}
+    nav{top: -80px;}
+    .encart img{width: 35%;}
+    
+    
 }
 
 @media screen and (max-width:385px){
@@ -178,6 +203,12 @@
     #skip{bottom: 25%; font-size: .9em;}
     .num{top: 100px; right: -30px;}
     .num:last-child{right: -5px;}
+    .resume_project p, .resume_project a{font-size: .7em;}
+    .back{margin: 140px 0 0 0;}
+    .next{right: 40px;}
+    .previous{left: 40px;}
+    .nav{top: -80px;}
+    
 }
 
 @media screen and (max-width:320px){
@@ -186,5 +217,12 @@
     .box ul{top: 68%;}
     .txt_devis p{font-size: .6em;margin-bottom: 5px;}
     .num{font-size: .7em; top: 90px; right: -25px;}
-    
+    h1{font-size: 3em;}
+    .nav{top: -60px;}
+    .next{right: 30px;}
+    .previous{left: 30px;}
+    .resume_project{top: 60px;}
+    .resume_project p, .resume_project a{font-size: .6em;}
+    .back{font-size: .7em; margin: 125px 0 0 0;}
+    .encart img{width: 30%;}
 }
