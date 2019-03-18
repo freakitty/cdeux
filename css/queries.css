@@ -65,6 +65,7 @@
     .previous{left: 50px;}
     .black_bg{height: 60%;}
     .milky_mockup{margin-top: 400px;}
+    .accroche9901{font-size: 3.5em;}
 }
 
 @media screen and (max-width:780px){
@@ -97,6 +98,7 @@
     .presentation{margin-left: -15%; margin-right: 80px;}
     .color{margin-top:15px;}
     .anim .card.midd{width: 80%;}
+    .accroche9901{font-size: 2.5em;}
 
 }
 
@@ -163,6 +165,9 @@
     .anim{padding: 1rem 20px;}
     .color{margin-top:50px;}
     h1{font-size: 4em;}
+    .accroche9901{font-size: 1.5em;}
+    .anim .card.midd video{padding-bottom: 20px;}
+    .nangis_pres{width: 35%;}
 }
 
 @media screen and (max-width:420px){
@@ -176,9 +181,10 @@
     .presentation{margin-right:50px; line-height: 20px;}
     .presentation p{max-width: 90%;font-size:.8em;}
     .black_bg{height: 60%;}
-    .logo_pres{top: 50%;}
-    
-    
+    .logo_pres{top: 55%;}
+    .accroche9901{font-size: 1.3em;}
+    .neuf01 img{width: 25%;}
+    .nangis_pres{width: 45%;}
 }
 
 @media screen and (max-width:385px){
@@ -232,6 +238,10 @@
     h1{font-size:3.5em;}
 }
 
+@media screen and (max-width:360px){
+    .milky_mockup{margin-top: 200px;}
+}
+
 @media screen and (max-width:320px){
     .saturn_atome{width: 120px; left: 32%;}
     .console_tarifs{top: 42%;}
@@ -246,9 +256,11 @@
     .resume_project p, .resume_project a{font-size: .6em;}
     .back{font-size: .7em; margin: 125px 0 0 0;}
     .encart img{width: 30%;}
+    .neuf01 img{width: 25%;}
     .black_bg{height: 70%;}
     .milky_mockup{margin-top: 180px;}
     .color img{width: 45%;}
     .color{margin-left:20px;}
     .logo_pres{top: 55%;}
+    .accroche9901{font-size: 1em;}
 }

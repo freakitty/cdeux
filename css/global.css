@@ -1121,6 +1121,14 @@ b{
     background: linear-gradient(to bottom right, #FF02F2 0%, #00FFFE 100%);
 }
 
+.neuf01{
+    background: #000;
+}
+
+.nangis{
+    background: #F04604;
+}
+
 h1{
     color: #FFF;
     font-size: 5em;
@@ -1210,7 +1218,7 @@ h1{
 }
 
 .resume_project a:hover{
-    color: #FF02F2;
+    color: #AAA;
 }
 
 .resume_project div div{
@@ -1224,11 +1232,29 @@ h1{
     width: 50%;
 }
 
+.nangis_pres{
+    width: 27%;
+}
+
 .logo_pres{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 45%;
+}
+
+.accroche9901{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    white-space: nowrap;
+
+}
+
+.accroche9901 span{
+    color: #45FF00;
 }
 
 /* ========================= PROJETS CLIENTS / ANIMATION SCCROLL =============================== */
@@ -1299,3 +1325,4 @@ h5{
     width: 90%;
     margin-top: 50px;
 }
+
