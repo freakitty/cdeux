@@ -9,6 +9,9 @@
     .console_tarifs{left: 53%; top: 18%;}
     .btn_devis{margin-top:15px;}
     #skip{bottom: 20%;}
+    .black_bg{height: 100%;}
+    .logo_pres{top: 38%;}
+    .color{margin-top: 15px;}
 }
 
 @media screen and (min-width: 1025px){
@@ -61,6 +64,7 @@
     .next{right: 50px;}
     .previous{left: 50px;}
     .black_bg{height: 60%;}
+    .milky_mockup{margin-top: 400px;}
 }
 
 @media screen and (max-width:780px){
@@ -88,6 +92,12 @@
     .back{margin: 150px 0 0 50px; font-weight: 200;}
     .nav{font-size:.9em; font-weight: 200;}
     .resume_project{width: 100%; top: 80px;}
+    .black_bg{height: 50%;}
+    .milky_mockup{margin-top: 300px;}
+    .presentation{margin-left: -15%; margin-right: 80px;}
+    .color{margin-top:15px;}
+    .anim .card.midd{width: 80%;}
+
 }
 
 @media screen and (max-width:480px){
@@ -148,16 +158,25 @@
     .resume_project div div{margin: 0 15px 0 15px;}
     .resume_project p{font-size: .8em;}
     .resume_project{top: 70px;}
+    .milky_pres{width: 70%;}
+    .logo_pres{top: 55%;}
+    .anim{padding: 1rem 20px;}
+    .color{margin-top:50px;}
+    h1{font-size: 4em;}
 }
 
 @media screen and (max-width:420px){
     .cindy{left: 22%;}
     .cecilia{left: 22%;}
     .saturn_atome{width: 150px; left: 32%;}
-    h1{font-size: 4em;}
     .resume_project div div{margin: 0 10px 0 10px;}
     nav{top: -80px;}
     .encart img{width: 35%;}
+    .milky_mockup{margin-top: 250px;}
+    .presentation{margin-right:50px; line-height: 20px;}
+    .presentation p{max-width: 90%;font-size:.8em;}
+    .black_bg{height: 60%;}
+    .logo_pres{top: 50%;}
     
     
 }
@@ -208,6 +227,9 @@
     .next{right: 40px;}
     .previous{left: 40px;}
     .nav{top: -80px;}
+    .presentation p{max-width: 100%;}
+    .presentation{margin-right:30px;}
+    h1{font-size:3.5em;}
 }
 
 @media screen and (max-width:320px){
@@ -216,7 +238,7 @@
     .box ul{top: 68%;}
     .txt_devis p{font-size: .6em;margin-bottom: 5px;}
     .num{font-size: .7em; top: 90px; right: -25px;}
-    h1{font-size: 3em;}
+    h1{font-size: 2.5em;}
     .nav{top: -60px;}
     .next{right: 30px;}
     .previous{left: 30px;}
@@ -224,4 +246,9 @@
     .resume_project p, .resume_project a{font-size: .6em;}
     .back{font-size: .7em; margin: 125px 0 0 0;}
     .encart img{width: 30%;}
+    .black_bg{height: 70%;}
+    .milky_mockup{margin-top: 180px;}
+    .color img{width: 45%;}
+    .color{margin-left:20px;}
+    .logo_pres{top: 55%;}
 }
