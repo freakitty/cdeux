@@ -12,6 +12,7 @@
     .black_bg{height: 100%;}
     .logo_pres{top: 38%;}
     .color{margin-top: 15px;}
+    .metalcraft_mockup{width: 50%; margin-top: 120px;}
 }
 
 @media screen and (min-width: 1025px){
@@ -66,6 +67,7 @@
     .black_bg{height: 60%;}
     .milky_mockup{margin-top: 400px;}
     .accroche9901{font-size: 3.5em;}
+    .metalcraft_mockup{width: 50%; margin-top: 400px;}
 }
 
 @media screen and (max-width:780px){
@@ -99,6 +101,7 @@
     .color{margin-top:15px;}
     .anim .card.midd{width: 80%;}
     .accroche9901{font-size: 2.5em;}
+    .metalcraft_mockup{margin-top: 300px; width: 60%;}
 
 }
 
@@ -168,6 +171,8 @@
     .accroche9901{font-size: 1.5em;}
     .anim .card.midd video{padding-bottom: 20px;}
     .nangis_pres{width: 35%;}
+    .metalcraft_mockup{width: 70%;}
+    .metalcraft_pres{width: 50%;}
 }
 
 @media screen and (max-width:420px){
@@ -185,6 +190,8 @@
     .accroche9901{font-size: 1.3em;}
     .neuf01 img{width: 25%;}
     .nangis_pres{width: 45%;}
+    .metalcraft_mockup{margin-top: 250px;}
+    .metalcraft h1{font-size: 3.5em;}
 }
 
 @media screen and (max-width:385px){
@@ -240,6 +247,7 @@
 
 @media screen and (max-width:360px){
     .milky_mockup{margin-top: 200px;}
+    .metalcraft_mockup{width: 80%; margin-top: 220px;}
 }
 
 @media screen and (max-width:320px){
@@ -263,4 +271,6 @@
     .color{margin-left:20px;}
     .logo_pres{top: 55%;}
     .accroche9901{font-size: 1em;}
+    .metalcraft_mockup{margin-top: 150px;}
+    .metalcraft h1{font-size: 2.8em;}
 }

@@ -1129,6 +1129,10 @@ b{
     background: #F04604;
 }
 
+.metalcraft{
+    background: #F0F0F0;
+}
+
 h1{
     color: #FFF;
     font-size: 5em;
@@ -1236,6 +1240,10 @@ h1{
     width: 27%;
 }
 
+.metalcraft_pres{
+    width: 40%;
+}
+
 .logo_pres{
     position: absolute;
     left: 50%;
@@ -1324,5 +1332,10 @@ h5{
 .milky_mockup{
     width: 90%;
     margin-top: 50px;
+}
+
+.metalcraft_mockup{
+    width: 40%;
+    margin-top: 20px;
 }
 
