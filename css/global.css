@@ -1133,6 +1133,10 @@ b{
     background: #F0F0F0;
 }
 
+.khi{
+    background: #1D95AD;
+}
+
 h1{
     color: #FFF;
     font-size: 5em;
@@ -1244,6 +1248,10 @@ h1{
     width: 40%;
 }
 
+.khi_pres{
+    width: 70%;
+}
+
 .logo_pres{
     position: absolute;
     left: 50%;
@@ -1336,6 +1344,11 @@ h5{
 
 .metalcraft_mockup{
     width: 40%;
+    margin-top: 20px;
+}
+
+.khi_mockup{
+    width: 30%;
     margin-top: 20px;
 }
 

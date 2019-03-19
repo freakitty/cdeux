@@ -13,6 +13,7 @@
     .logo_pres{top: 38%;}
     .color{margin-top: 15px;}
     .metalcraft_mockup{width: 50%; margin-top: 120px;}
+    .khi_pres{top: 55%;}
 }
 
 @media screen and (min-width: 1025px){
@@ -68,6 +69,7 @@
     .milky_mockup{margin-top: 400px;}
     .accroche9901{font-size: 3.5em;}
     .metalcraft_mockup{width: 50%; margin-top: 400px;}
+    .khi_mockup{width: 40%; margin-top: 250px;}
 }
 
 @media screen and (max-width:780px){
@@ -102,6 +104,7 @@
     .anim .card.midd{width: 80%;}
     .accroche9901{font-size: 2.5em;}
     .metalcraft_mockup{margin-top: 300px; width: 60%;}
+    .khi_mockup{width: 50%;}
 
 }
 
@@ -173,6 +176,8 @@
     .nangis_pres{width: 35%;}
     .metalcraft_mockup{width: 70%;}
     .metalcraft_pres{width: 50%;}
+    .gif{margin-bottom: 40px;}
+    .khi_mockup{width: 65%;}
 }
 
 @media screen and (max-width:420px){
@@ -192,6 +197,7 @@
     .nangis_pres{width: 45%;}
     .metalcraft_mockup{margin-top: 250px;}
     .metalcraft h1{font-size: 3.5em;}
+    .khi_mockup{margin-top:200px;}
 }
 
 @media screen and (max-width:385px){
