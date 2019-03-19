@@ -83,6 +83,10 @@ span#right{
     transition-duration:0.4s;
 }
 
+.border>span{
+    border: 1px solid #f0f0f0;
+}
+
 .hamburger-button>span:first-child{
     left: 0;
 }
@@ -1137,6 +1141,10 @@ b{
     background: #1D95AD;
 }
 
+.aph{
+    background: #3C3C3B;
+}
+
 h1{
     color: #FFF;
     font-size: 5em;
@@ -1170,11 +1178,11 @@ h1{
     transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.nav p{
+.nav p, .back p{
     display: block;
 }
 
-.nav img{
+.nav img, .back img{
     display: none;
 }
 
@@ -1250,6 +1258,10 @@ h1{
 
 .khi_pres{
     width: 70%;
+}
+
+.aph_pres{
+    width: 40%;
 }
 
 .logo_pres{
@@ -1352,3 +1364,10 @@ h5{
     margin-top: 20px;
 }
 
+.aph_mockup{
+    width: 50%;
+}
+
+.layoutaph{
+    width: 70%;
+}

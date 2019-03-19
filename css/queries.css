@@ -14,6 +14,8 @@
     .color{margin-top: 15px;}
     .metalcraft_mockup{width: 50%; margin-top: 120px;}
     .khi_pres{top: 55%;}
+    .aph_mockup{margin-top: 80px;}
+    .aph_pres{top: 50%;}
 }
 
 @media screen and (min-width: 1025px){
@@ -70,6 +72,7 @@
     .accroche9901{font-size: 3.5em;}
     .metalcraft_mockup{width: 50%; margin-top: 400px;}
     .khi_mockup{width: 40%; margin-top: 250px;}
+    .aph_mockup{margin-top:400px;}
 }
 
 @media screen and (max-width:780px){
@@ -105,6 +108,7 @@
     .accroche9901{font-size: 2.5em;}
     .metalcraft_mockup{margin-top: 300px; width: 60%;}
     .khi_mockup{width: 50%;}
+    .aph_mockup{margin-top: 250px; width: 70%;}
 
 }
 
@@ -160,9 +164,9 @@
     li .last_btn{margin-top: -10px;}
     .wrapper{width: 70%;}
     .nav{top: -100px;}
-    .nav p{display: none;}
-    .nav img{display: block;}
-    .back{font-size: .8em; transform: rotate(-90deg);margin: 190px 0 0 20px;}
+    .nav p, .back p{display: none;}
+    .nav img, .back img{display: block;}
+    .back{margin-top: 60px; right: 30px; width: 90px;}
     .resume_project div div{margin: 0 15px 0 15px;}
     .resume_project p{font-size: .8em;}
     .resume_project{top: 70px;}
@@ -178,6 +182,8 @@
     .metalcraft_pres{width: 50%;}
     .gif{margin-bottom: 40px;}
     .khi_mockup{width: 65%;}
+    .layoutaph{width: 80%;}
+    .aph_pres{width: 65%; top: 50%;}
 }
 
 @media screen and (max-width:420px){
@@ -242,18 +248,19 @@
     .num{top: 100px; right: -30px;}
     .num:last-child{right: -5px;}
     .resume_project p, .resume_project a{font-size: .7em;}
-    .back{margin: 140px 0 0 0;}
     .next{right: 40px;}
     .previous{left: 40px;}
     .nav{top: -80px;}
     .presentation p{max-width: 100%;}
     .presentation{margin-right:30px;}
     h1{font-size:3.5em;}
+    .back{margin-top: 50px; right: 20px;width: 60px;}
 }
 
 @media screen and (max-width:360px){
     .milky_mockup{margin-top: 200px;}
     .metalcraft_mockup{width: 80%; margin-top: 220px;}
+    .aph_mockup{margin-top: 200px;}
 }
 
 @media screen and (max-width:320px){
@@ -268,7 +275,6 @@
     .previous{left: 30px;}
     .resume_project{top: 60px;}
     .resume_project p, .resume_project a{font-size: .6em;}
-    .back{font-size: .7em; margin: 125px 0 0 0;}
     .encart img{width: 30%;}
     .neuf01 img{width: 25%;}
     .black_bg{height: 70%;}
@@ -279,4 +285,5 @@
     .accroche9901{font-size: 1em;}
     .metalcraft_mockup{margin-top: 150px;}
     .metalcraft h1{font-size: 2.8em;}
+    .aph_mockup{margin-top: 160px;}
 }
