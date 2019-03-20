@@ -1049,10 +1049,6 @@ b{
 }
 
 .item:nth-of-type(13n) {
-    background-image: url("../images/bg_aslak.svg");
-}
-
-.item:nth-of-type(14n) {
     background-image: url("../images/bg_melisso.svg");
 }
 
@@ -1145,12 +1141,29 @@ b{
     background: #3C3C3B;
 }
 
+.premierappart{
+    background: #942080;
+}
+
+.sed{
+    background: #FFDE17;
+}
+
+.christian{
+    background: #6EC392;
+}
+
+.edition{
+    background: #AD2C5B;
+}
+
 h1{
     color: #FFF;
     font-size: 5em;
     text-transform: uppercase;
     font-weight: 700;
     margin: -45px 0 0 -150px; 
+    text-align: center;
 }
 
 .back{
@@ -1257,11 +1270,19 @@ h1{
 }
 
 .khi_pres{
-    width: 70%;
+    width: 80%;
 }
 
 .aph_pres{
     width: 40%;
+}
+
+.sed_pres{
+    width: 40%;
+}
+
+.edition_pres{
+    width: 60%;
 }
 
 .logo_pres{
@@ -1271,6 +1292,10 @@ h1{
     top: 45%;
 }
 
+.couprie_pres{
+    width: 50%;
+    top: 37%;
+}
 .accroche9901{
     text-transform: uppercase;
     font-weight: 700;
@@ -1355,8 +1380,8 @@ h5{
 }
 
 .metalcraft_mockup{
-    width: 40%;
-    margin-top: 20px;
+    width: 50%;
+    margin-top: 100px;
 }
 
 .khi_mockup{
@@ -1368,6 +1393,39 @@ h5{
     width: 50%;
 }
 
+.sed_mockup{
+    width: 40%;
+    margin-top: 50px;
+}
+
+.christian_mockup{
+    width: 59%;
+    margin-top: 90px;
+}
+
+.edition_mockup{
+    width: 70%;
+    margin-top: 50px;
+}
+
 .layoutaph{
     width: 70%;
+}
+
+.layoutsed{
+    width: 55%;
+    margin-bottom: 30px;
+}
+
+.layout_edition{
+    width: 100%;
+}
+
+.vid_metalcraft{
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.color_card{
+    width: 30%;
 }
