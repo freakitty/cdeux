@@ -1129,7 +1129,7 @@ b{
     background: #F04604;
 }
 
-.metalcraft{
+.metalcraft, .aslak{
     background: #F0F0F0;
 }
 
@@ -1157,13 +1157,25 @@ b{
     background: #AD2C5B;
 }
 
+.dc11331{
+    background: #00FF00;
+}
+
+.melisso{
+    background: #31B7BC;
+}
+
+.melisso img{
+    width: 37%;
+    margin-top: 20px;
+}
+
 h1{
     color: #FFF;
     font-size: 5em;
     text-transform: uppercase;
     font-weight: 700;
     margin: -45px 0 0 -150px; 
-    text-align: center;
 }
 
 .back{
@@ -1292,10 +1304,21 @@ h1{
     top: 45%;
 }
 
+.dc11331_pres{
+    width: 30%;
+    top: 35%;
+}
+
 .couprie_pres{
     width: 50%;
     top: 37%;
 }
+
+.aslak_pres{
+    width: 25%;
+    top: 40%;
+}
+
 .accroche9901{
     text-transform: uppercase;
     font-weight: 700;
@@ -1408,8 +1431,24 @@ h5{
     margin-top: 50px;
 }
 
+.dc_mockup{
+    width: 50%;
+    margin-top: 120px;
+}
+
+.aslak_mockup{
+    width: 45%;
+    margin-top: 100px;
+}
+
+.melisso_mockup{
+    width: 40%;
+    margin-top: 130px;
+}
+
 .layoutaph{
     width: 70%;
+    margin-bottom: 20px;
 }
 
 .layoutsed{
