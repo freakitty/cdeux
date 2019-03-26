@@ -1297,6 +1297,10 @@ h1{
     width: 60%;
 }
 
+.appart_pres{
+    width: 40%;
+}
+
 .logo_pres{
     position: absolute;
     left: 50%;
@@ -1439,6 +1443,11 @@ h5{
 .aslak_mockup{
     width: 45%;
     margin-top: 100px;
+}
+
+.appart_mockup{
+    width: 40%;
+    margin-top: 120px;
 }
 
 .melisso_mockup{

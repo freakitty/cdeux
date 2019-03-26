@@ -88,6 +88,7 @@
     .dc11331_pres{top: 45%;}
     .aslak_mockup{margin-top: 400px;}
     .melisso_mockup{margin-top: 450px;}
+    .appart_mockup{width: 50%;margin-top:450px;}
 }
 
 @media screen and (max-width:780px){
@@ -135,6 +136,7 @@
     .melisso_pres{width: 20%;}
     .melisso_mockup{margin-top: 360px;}
     .h1_large{font-size: 4em;}
+    .appart_mockup{margin-top: 300px;}
 
 }
 
@@ -255,6 +257,7 @@
     .melisso_pres{top: 40%;}
     .melisso_mockup{width: 60%; margin-top: 250px;}
     .layoutaph{width: 85%;}
+    .appart_mockup{margin-top: 270px;}
 }
 
 @media screen and (max-width:385px){
@@ -318,6 +321,7 @@
     .edition_mockup{margin-top: 200px;}
     .dc_mockup{margin-top: 230px;}
     .h1_large{font-size: 2.5em;}
+    .appart_mockup{margin-top: 220px;}
 }
 
 @media screen and (max-width:320px){
@@ -355,4 +359,5 @@
     .h1_large{font-size: 2em;}
     .melisso_pres{top: 45%;}
     .melisso_mockup{margin-top: 170px;}
+    .appart_mockup{margin-top: 180px;}
 }
