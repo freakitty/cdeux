@@ -1,8 +1,9 @@
 @media screen and (min-width:1440px){
+    .affordance{bottom: 100px;}
     .intro{top: 40%; left: 25%;}
     @keyframes text {0%{top: 45%; opacity: 0;} 100%{top: 40%; opacity: 1;}}
     #console_cnous{top: 35%; left: 25%;}
-    #portrait_line{top: 175%;}
+    #portrait_line{top: 75%;}
     .saturn_atome{left: 13%;}
     .txt_devis{right: 13%;}
     .box li{margin: 15px 15px;}
@@ -23,6 +24,12 @@
     .aslak_pres{top: 30%;width: 20%;}
     .melisso_mockup{margin-top: 200px;}
     .melisso_pres{top: 48%;}
+    .item_details {padding: 40px;}
+    .nav{top: 380px;}
+}
+
+@media screen and (min-width:1280px){
+    .nav{top: 340px;}
 }
 
 @media screen and (min-width: 1025px){
@@ -42,9 +49,10 @@
 }
 
 @media screen and (max-width:1025px){
-    .portrait{top: 120%;}
-     #portrait_line{top: 135%;}
-    .intro_nous{height: 30%;}
+    .affordance{bottom: 150px;}
+    .portrait{top: 30%;}
+    .intro_nous{top: 55%;}
+     #portrait_line{top: 45%;}
     .intro{max-width: 750px; left: 15%;}
     #logo_home{width: 20%;}
     #ufo, #ufo02{width: 12%; top: 20%; left: 25%;}
@@ -70,7 +78,7 @@
     #console{ bottom: 20%;}
     .encart{width: 55%; height: 350px;}
     .resume_project{width: 55%; top: 200px;}
-    .nav{top: -50px;font-size: 1em;}
+    .nav{top: 250px;font-size: 1em;}
     .next{right: 50px;}
     .previous{left: 50px;}
     .black_bg{height: 60%;}
@@ -89,16 +97,16 @@
     .aslak_mockup{margin-top: 400px;}
     .melisso_mockup{margin-top: 450px;}
     .appart_mockup{width: 50%;margin-top:450px;}
+    .item_details {padding-left: 50px;}
 }
 
 @media screen and (max-width:780px){
+    .affo_tarifs{bottom: 100px;}
     .intro{max-width: 600px; left: 15%; top: 35%;}
     @keyframes text {0%{top: 40%; opacity: 0;} 100%{top: 35%; opacity: 1;}}
     #console_cnous{left: 15%; top: 30%;}
-    #portrait_line{top: 140%;}
-    .portrait{top: 120%;}
-    .intro_nous{font-size: 1em; top: 140%; height: 50%;}
-    .description{transform: translateY(50%);}
+    #portrait_line{top: 50%;}
+    .intro_nous{font-size: 1em; top: 60%;}
     #bgvid{max-width: 85%;}
     #vid_intro{width: 70%;}
     #skip{bottom: 30%;}
@@ -114,7 +122,7 @@
     .encart{top: 0;left: 0;transform: translate(0%,0%);}
     h1{position: absolute; margin: 0 0; top: 100%; left: 50%; transform: translate(-50%,-50%);text-align: center;}
     .back{margin: 150px 0 0 50px; font-weight: 200;}
-    .nav{font-size:.9em; font-weight: 200;}
+    .nav{font-size:.9em; font-weight: 200; top: 530px;}
     .resume_project{width: 100%; top: 80px;}
     .black_bg{height: 50%;}
     .milky_mockup{margin-top: 300px;}
@@ -137,6 +145,8 @@
     .melisso_mockup{margin-top: 360px;}
     .h1_large{font-size: 4em;}
     .appart_mockup{margin-top: 300px;}
+    .item:after {width: 80%;}
+    .item_details {padding-left: 30px;}
 
 }
 
@@ -155,19 +165,19 @@
     #navbar ul li:nth-child(2){left: 50%;}
     #navbar ul li:nth-child(4){left: 50%;}
     #navbar ul li:nth-child(5){left: 50%;}
-    #console{ bottom: 13%;}
+    #console{ bottom: 20%;}
     #console_cnous{left: 20%;}
     .intro{font-size: 1.2em; line-height: 30px; max-width: 250px; left: 20%;}
     .affordance{width: 50px; bottom: 85px;}
     .brain{width: 50px;}
     .down_arrow{width: 20px; margin-left: 14px;}
     .portrait img{width: 200px;}
-    .portrait{top: 125%;}
+    .portrait{top: 25%;}
     .img_cindy{left: -25px;}
     .img_cecilia{left: 25px;}
-    .intro_nous{line-height: 20px; top: 150%;}
-    .cindy{left: 25%; top: 15%;}
-    .cecilia{left: 25%; top: -25%;}
+    .intro_nous{line-height: 20px; top: 60%; height: 50%;}
+    .cindy{left: 25%; top: 55%;}
+    .cecilia{left: 25%; top: 15%;}
     .line_portrait, .dot_portrait{display: none;}
     .mail svg{width: 135px;}
     .atome_affo{display: none;}
@@ -191,7 +201,7 @@
     .print_price{top: 47%;}
     li .last_btn{margin-top: -10px;}
     .wrapper{width: 70%;}
-    .nav{top: -100px;}
+    .nav{top: 450px;}
     .nav p, .back p{display: none;}
     .nav img, .back img{display: block;}
     .back{margin-top: 60px; right: 30px; width: 90px;}
@@ -225,11 +235,11 @@
 }
 
 @media screen and (max-width:420px){
-    .cindy{left: 22%;}
+    .cindy{left: 22%; top: 60%;}
     .cecilia{left: 22%;}
     .saturn_atome{width: 150px; left: 32%;}
     .resume_project div div{margin: 0 10px 0 10px;}
-    nav{top: -80px;}
+    .nav{top: 420px;}
     .encart img{width: 35%;}
     .milky_mockup{margin-top: 250px;}
     .presentation{margin-right:50px; line-height: 20px;}
@@ -254,7 +264,7 @@
     .aslak_pres{top: 40%;}
     .aslak_mockup{margin-top:240px;}
     .h1_large{font-size: 2.7em;}
-    .melisso_pres{top: 40%;}
+    .melisso_pres{top: 43%;}
     .melisso_mockup{width: 60%; margin-top: 250px;}
     .layoutaph{width: 85%;}
     .appart_mockup{margin-top: 270px;}
@@ -280,10 +290,10 @@
     #logo_page{width: 40px; top: 35px; left: 35px;}
     .intro{font-size: 1em; line-height: 25px; max-width: 250px; left: 15%;}
     #console_cnous{left: 15%;}
-    .intro_nous{font-size: .8em; top: 180%;}
+    .intro_nous{font-size: .8em; top: 63%;}
     .description{max-width: 200px;}
-    .cecilia{left: 23%; top: -75%;}
-    .cindy{top: -20%; left: 23%;}
+    .cecilia{left: 23%; top: 8%;}
+    .cindy{top: 52%; left: 23%;}
     #typewriter_contact{font-size: .6em; line-height: 15px;}
     .console_contact{width: 200px;}
     .mail svg{width: 105px;}
@@ -304,13 +314,14 @@
     .resume_project p, .resume_project a{font-size: .7em;}
     .next{right: 40px;}
     .previous{left: 40px;}
-    .nav{top: -80px;}
+    .nav{top: 380px;}
     .presentation p{max-width: 100%;}
     .presentation{margin-right:30px;}
     h1{font-size:3.5em;}
     .back{margin-top: 50px; right: 20px;width: 60px;}
     .vid_metalcraft{width: 90%;}
     .layoutsed{width: 95%;}
+    .project_link{bottom: 38px; right: 37px;}
 }
 
 @media screen and (max-width:360px){
@@ -322,16 +333,20 @@
     .dc_mockup{margin-top: 230px;}
     .h1_large{font-size: 2.5em;}
     .appart_mockup{margin-top: 220px;}
+    .item:after {width: 75%;}
+    .nav{top: 350px;}
 }
 
 @media screen and (max-width:320px){
+    .portrait img{width: 120px;}
+    .intro_nous{top: 62%; font-size: .7em; line-height: 15px;}
     .saturn_atome{width: 120px; left: 32%;}
     .console_tarifs{top: 42%;}
     .box ul{top: 68%;}
     .txt_devis p{font-size: .6em;margin-bottom: 5px;}
     .num{font-size: .7em; top: 90px; right: -25px;}
     h1{font-size: 2.5em;}
-    .nav{top: -60px;}
+    .nav{top: 320px;}
     .next{right: 30px;}
     .previous{left: 30px;}
     .resume_project{top: 60px;}
@@ -360,4 +375,5 @@
     .melisso_pres{top: 45%;}
     .melisso_mockup{margin-top: 170px;}
     .appart_mockup{margin-top: 180px;}
+    .project_link{font-size: .7em; right: 30px;}
 }

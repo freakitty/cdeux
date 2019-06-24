@@ -60,7 +60,14 @@ $(function () {
     $(window).scroll(function () {
         $(".affo_brain").css("opacity", 1 - $(window).scrollTop() / 250);
     });
-
+    
+    $(".affo_brain").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top},
+        'slow');
+});
+    
+    
     /* ============================= TEXT INTRO ================================ */
     
     var mq = window.matchMedia("(max-width: 780px)");

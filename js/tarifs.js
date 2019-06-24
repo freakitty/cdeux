@@ -178,8 +178,44 @@ $(document).ready(function () {
         
 
     /* ============================= AFFORDANCE ================================ */
+        
+        const affoTarifs = $('.affo_tarifs')
+        affoTarifs.on('click', e => {
+            let newSection,
+            delta = e.deltaY
+    
+                newSection = (currentSection < len - 1) ? currentSection + 1 : currentSection
 
-    $("html, body").bind("mousewheel", function(){
+            if (currentSection !== newSection) {
+            // newSection is currentSection now
+            // And `old` currentSection is previousSection
+                if (currentSection < newSection) {
+                // Moving Down
+                    removeClass(sections[newSection], 'under')
+                    addClass(sections[newSection], 'current')
+                    removeClass(sections[currentSection], 'current')
+                    addClass(sections[currentSection], 'above')
+                } else {
+                // Moving Up
+                    removeClass(sections[newSection], 'above')
+                    addClass(sections[newSection], 'current')
+                    removeClass(sections[currentSection], 'current')
+                    addClass(sections[currentSection], 'under')
+                }
+
+                // Update currentSection
+                currentSection = newSection
+
+                sections.forEach((item, index) => {
+                // item.style.top = `${(index - currentSection) * 100}vh`
+                    item.style.transform = `translateY(${(index - currentSection) * 100}vh)`
+                })
+            }
+            console.log('wesh');
+
+    });
+
+        $("html, body").bind("mousewheel", function(){
         if ($('.current').hasClass("atome_page")) {
             $(".affo_tarifs").css("opacity", '0')
         } else {
@@ -194,10 +230,20 @@ $(document).ready(function () {
             $(".affo_tarifs").css("opacity", '1');
             tarifs.css('margin-top','0px').marginTop;
         }
+        
+        
+    });    
+        $("html, body").bind("click", function(){
+        if ($('.current').hasClass("atome_page")) {
+            $(".affo_tarifs").css("opacity", '0')
+        } else {
+            $(".affo_tarifs").css("opacity", '1');
+            tarifs.css('margin-top','0px').marginTop;
+        }
     });
-
+              
 })()
-
+    
     toView(getH());
 
 });

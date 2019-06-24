@@ -44,8 +44,6 @@ $(function () {
         }
     });
     
-    
-    
 /* ============================= TYPE ================================ */
 
     var typewriter = require('typewriter'),
@@ -61,7 +59,10 @@ $(function () {
         .type('Ici C2')
         .waitRange(1000, 1500)
         .put('<br/>')
-        .type('Communication établie');
+        .type('Communication établie')
+        .waitRange(500, 1000)
+        .put('<br/>')
+        .type('Design / CM / Web / Conseil');
 
     
     

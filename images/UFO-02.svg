@@ -29,7 +29,7 @@
 					attributeName="y" 
 		    		id = "y"
 		    		dur ="3s"
-		    		begin="5s; 12s; 19s; 26s;"
+		    		begin="2s; 10s; 17s; 24s;"
            end="7s; 14s; 21s; 28s;"
                          restart="whenNotActive"
                            
