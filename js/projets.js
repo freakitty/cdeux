@@ -40,6 +40,7 @@ $(function () {
             tweenreset();
             toView('#navbar');
             $('.hamburger-button').css('display', 'none');
+            $('.main').css('overflow-y', 'hidden');
             $('.menu_name').css('display', 'none');
             $('.close_menu').delay(800)
                 .queue(function (next) { 
