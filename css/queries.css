@@ -46,6 +46,36 @@
     .item:nth-of-type(12n) {grid-column: 1;grid-row: 4;}
     .item:nth-of-type(13n) {grid-column: 2;grid-row: 4;}
     .grid{grid-template-columns: repeat(5, 1fr);}
+    #navbar ul li:nth-child(1):hover{
+    transform: rotate(0deg);
+    top: 150px;
+    left: 15%;
+    text-align: center;
+    }
+    #navbar ul li:nth-child(2):hover{
+    transform: rotate(0deg);
+    top: 150px;
+    left: 30%;
+    text-align: center;
+    }
+    #navbar ul li:nth-child(3):hover{
+    transform: rotate(0deg);
+    top: 150px;
+    left: 45%;
+    text-align: center;
+    }
+    #navbar ul li:nth-child(4):hover{
+    transform: rotate(0deg);
+    top: 150px;
+    left: 60%;
+    text-align: center;
+    }
+    #navbar ul li:nth-child(5):hover{
+    transform: rotate(0deg);
+    top: 150px;
+    left: 75%;
+    text-align: center;
+    }
 }
 
 @media screen and (max-width:1025px){

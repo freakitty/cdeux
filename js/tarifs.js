@@ -46,7 +46,11 @@ $(document).ready(function () {
             toView('#navbar');
             $('.hamburger-button').css('display', 'none');
             $('.menu_name').css('display', 'none');
-            $('.close_menu').css('display', 'block');
+            $('.close_menu').delay(800)
+                .queue(function (next) { 
+                    $(this).css('display', 'block'); 
+                    next(); 
+                });
         } else {
             toView('home');
             $('.hamburger-button').css('display', 'block');
