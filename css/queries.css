@@ -198,7 +198,7 @@
     #logo_home{width: 30%;}
     #ufo02{visibility: hidden;}
     #console_projets{max-width: 34%;}
-    .print_price{top: 47%;}
+    .print_price{top: 45%;}
     li .last_btn{margin-top: -10px;}
     .wrapper{width: 70%;}
     .nav{top: 450px;}
@@ -268,6 +268,7 @@
     .melisso_mockup{width: 60%; margin-top: 250px;}
     .layoutaph{width: 85%;}
     .appart_mockup{margin-top: 270px;}
+    .txt_devis p{line-height: 20px;}
 }
 
 @media screen and (max-width:385px){
@@ -322,6 +323,7 @@
     .vid_metalcraft{width: 90%;}
     .layoutsed{width: 95%;}
     .project_link{bottom: 38px; right: 37px;}
+    .menu_name{top: 5px; font-size: 0.6em;}
 }
 
 @media screen and (max-width:360px){
@@ -338,6 +340,7 @@
 }
 
 @media screen and (max-width:320px){
+    .typewriter{line-height: 15px;}
     .portrait img{width: 120px;}
     .intro_nous{top: 62%; font-size: .7em; line-height: 15px;}
     .saturn_atome{width: 120px; left: 32%;}
