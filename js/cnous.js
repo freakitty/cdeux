@@ -46,13 +46,13 @@ $(function () {
             toView('#navbar');
             $('.hamburger-button').css('display', 'none');
             $('.menu_name').css('display', 'none');
-            $('.main').css('overflow-y', 'hidden');
+            $('body').css('overflow-y', 'hidden');
             $('.close_menu').delay(800)
                 .queue(function (next) { 
                     $(this).css('display', 'block'); 
                     next(); 
                 });
-            $('body').css('overflow-y','hidden')
+            $('body').css('overflow-y','hidden');
         } else {
             toView('home');
             $('.hamburger-button').css('display', 'block');

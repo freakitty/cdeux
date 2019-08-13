@@ -40,18 +40,20 @@ $(function () {
             tweenreset();
             toView('#navbar');
             $('.hamburger-button').css('display', 'none');
-            $('.main').css('overflow-y', 'hidden');
             $('.menu_name').css('display', 'none');
+            $('body').css('overflow-y', 'hidden');
             $('.close_menu').delay(800)
                 .queue(function (next) { 
                     $(this).css('display', 'block'); 
                     next(); 
                 });
+            $('body').css('overflow-y','hidden');
         } else {
             toView('home');
             $('.hamburger-button').css('display', 'block');
             $('.menu_name').css('display', 'block');
             $('.close_menu').css('display', 'none');
+            $('body').css('overflow-y','scroll');
         }
     });
     

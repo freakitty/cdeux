@@ -46,7 +46,7 @@ $(document).ready(function () {
             toView('#navbar');
             $('.hamburger-button').css('display', 'none');
             $('.menu_name').css('display', 'none');
-            $('.main').css('overflow-y', 'hidden');
+            $('body').css('overflow-y', 'hidden');
             $('.close_menu').delay(800)
                 .queue(function (next) { 
                     $(this).css('display', 'block'); 
@@ -57,6 +57,7 @@ $(document).ready(function () {
             $('.hamburger-button').css('display', 'block');
             $('.menu_name').css('display', 'block');
             $('.close_menu').css('display', 'none');
+            $('body').css('overflow-y', 'scroll');
         }
     });
 
