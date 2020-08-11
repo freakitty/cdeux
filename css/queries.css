@@ -24,6 +24,8 @@
     .aslak_pres{top: 30%;width: 20%;}
     .melisso_mockup{margin-top: 200px;}
     .melisso_pres{top: 48%;}
+    .valony_pres{top: 48%;}
+    .datexis_pres{top: 45%;}
     .item_details {padding: 40px;}
     .nav{top: 380px;}
 }
@@ -45,6 +47,12 @@
     .item:nth-of-type(11n) {grid-column: 5;grid-row: 3;}
     .item:nth-of-type(12n) {grid-column: 1;grid-row: 4;}
     .item:nth-of-type(13n) {grid-column: 2;grid-row: 4;}
+    .item:nth-of-type(14n) {grid-column: 3;grid-row: 4;}
+    .item:nth-of-type(15n) {grid-column: 4;grid-row: 4;}
+    .item:nth-of-type(16n) {grid-column: 5;grid-row: 4;}
+    .item:nth-of-type(17n) {grid-column: 1;grid-row: 5;}
+    .item:nth-of-type(18n) {grid-column: 2;grid-row: 5;}
+    .item:nth-of-type(19n) {grid-column: 3;grid-row: 5;}
     .grid{grid-template-columns: repeat(5, 1fr);}
     #navbar ul li:nth-child(1):hover{
     transform: rotate(0deg);

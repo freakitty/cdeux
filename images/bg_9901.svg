@@ -4,14 +4,24 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-94.000000, -106.000000)">
-            <rect id="Rectangle" fill="#000000" x="94" y="106" width="429" height="276"></rect>
-            <text id=".-THE-END-IS-WHERE-W" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold">
-                <tspan x="263" y="229" fill="#45FF00">.</tspan>
-                <tspan x="268.810547" y="229" fill="#FFFFFF"> THE END</tspan>
-                <tspan x="263" y="253" fill="#FFFFFF">IS WHERE</tspan>
-                <tspan x="263" y="277" fill="#FFFFFF">WE BEGIN</tspan>
-            </text>
+        <g id="PORTFOLIO-Copy-3" transform="translate(-200.000000, -330.000000)">
+            <g id="bg_9901" transform="translate(200.000000, 330.000000)">
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="0" width="429" height="276"></rect>
+                <g id=".-THE-END-IS-WHERE-W" transform="translate(169.000000, 84.000000)" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="bold">
+                    <text id="." fill="#45FF00">
+                        <tspan x="0" y="19">.</tspan>
+                    </text>
+                    <text id="THE-END" fill="#FFFFFF">
+                        <tspan x="5.810547" y="19">THE END</tspan>
+                    </text>
+                    <text id="IS-WHERE" fill="#FFFFFF">
+                        <tspan x="0" y="43">IS WHERE</tspan>
+                    </text>
+                    <text id="WE-BEGIN" fill="#FFFFFF">
+                        <tspan x="0" y="67">WE BEGIN</tspan>
+                    </text>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

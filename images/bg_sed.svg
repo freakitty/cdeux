@@ -2,31 +2,26 @@
 <svg width="613px" height="378px" viewBox="0 0 613 378" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="306.96616 299.443976 285.95195 240.202862 229.304852 267.196093 256.230621 210.409513 213 195 400.93232 195 357.701698 210.409513 384.629677 267.196093 327.98258 240.202862"></polygon>
-        <filter x="-15.7%" y="-24.4%" width="133.5%" height="160.3%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="2" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <polygon id="path-3" points="213 183.441761 256.228411 168.032248 229.300433 111.245668 285.94753 138.236683 306.96395 79 327.98037 138.236683 384.627467 111.245668 357.701698 168.032248 400.9279 183.441761"></polygon>
-        <filter x="-15.7%" y="-24.4%" width="133.5%" height="160.3%" filterUnits="objectBoundingBox" id="filter-4">
-            <feOffset dx="2" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy" transform="translate(-61.000000, -50.000000)">
-            <g id="Page-1" transform="translate(61.000000, 50.000000)">
-                <polygon id="Fill-1" fill="#FFDD00" points="0 378 613 378 613 0 0 0"></polygon>
-                <g id="Fill-2">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use fill="#3C3B3B" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="PORTFOLIO-Copy-3" transform="translate(-44.000000, -88.000000)">
+            <g id="bg_sed" transform="translate(44.000000, 88.000000)">
+                <polygon id="Fill-1" fill="#FFDD00" fill-rule="nonzero" points="0 378 613 378 613 0 0 0"></polygon>
+                <g id="Fill-2" transform="translate(224.582031, 171.097428)">
+                    <g id="path-1-link" fill-rule="nonzero" fill="#000000">
+                        <polygon id="path-1" points="82.3882983 87.3042959 63.9633142 37.784889 14.2958807 60.3484213 37.9040422 12.8807494 0 0 164.776597 0 126.872553 12.8807494 150.482653 60.3484213 100.81522 37.784889"></polygon>
+                    </g>
+                    <g id="path-1-link" fill="#3C3B3B">
+                        <polygon id="path-1" points="82.3882983 87.3042959 63.9633142 37.784889 14.2958807 60.3484213 37.9040422 12.8807494 0 0 164.776597 0 126.872553 12.8807494 150.482653 60.3484213 100.81522 37.784889"></polygon>
+                    </g>
                 </g>
-                <g id="Fill-3">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                    <use fill="#3C3B3B" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <g id="Fill-3" transform="translate(224.582031, 74.133498)">
+                    <g id="path-3-link" fill-rule="nonzero" fill="#000000">
+                        <polygon id="path-3" points="0 87.3024444 37.9021045 74.421695 14.2920061 26.9540231 63.9594388 49.5157031 82.3863606 0 100.813282 49.5157031 150.480715 26.9540231 126.872553 74.421695 164.772721 87.3024444"></polygon>
+                    </g>
+                    <g id="path-3-link" fill="#3C3B3B">
+                        <polygon id="path-3" points="0 87.3024444 37.9021045 74.421695 14.2920061 26.9540231 63.9594388 49.5157031 82.3863606 0 100.813282 49.5157031 150.480715 26.9540231 126.872553 74.421695 164.772721 87.3024444"></polygon>
+                    </g>
                 </g>
             </g>
         </g>

@@ -1,0 +1,47 @@
+
+<svg width="317px" height="79px" viewBox="0 0 317 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 78.1787 0 0.026 316.312 0.026 316.312 78.1787 1.35441246e-14 78.1787"></polygon>
+        <polygon id="path-3" points="0 80.9744 316.312 80.9744 316.312 1.0004 0 1.0004"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-190.000000, -195.000000)">
+            <g id="Page-1" transform="translate(190.000000, 194.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.974400)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M288.1826,78.1787 L28.1296,78.1787 C12.5936,78.1787 -0.0004,65.5847 -0.0004,50.0487 L-0.0004,28.1557 C-0.0004,12.6187 12.5936,0.0257 28.1296,0.0257 L288.1826,0.0257 C303.7176,0.0257 316.3126,12.6187 316.3126,28.1557 L316.3126,50.0487 C316.3126,65.5847 303.7176,78.1787 288.1826,78.1787" id="Fill-1" fill="#020302" mask="url(#mask-2)"></path>
+                </g>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <text id="METALCRAFT" mask="url(#mask-4)" font-family="Impact" font-size="53.6701" font-style="condensed" font-weight="700">
+                    <tspan x="26" y="62" fill="#C72026">M</tspan>
+                    <tspan x="64.47056" y="62" letter-spacing="1.37152363" fill="#FEFEFE">E</tspan>
+                    <tspan x="87.4359129" y="62" letter-spacing="-0.04" fill="#FEFEFE">T</tspan>
+                    <tspan x="109.985574" y="62" letter-spacing="2.09606998" fill="#FEFEFE">A</tspan>
+                    <tspan x="139.335992" y="62" letter-spacing="-0.04" fill="#FEFEFE">L</tspan>
+                    <tspan x="158.898157" y="62" letter-spacing="-0.04" fill="#C72026">C</tspan>
+                    <tspan x="188.575879" y="62" letter-spacing="-0.04" fill="#FEFEFE">RAFT</tspan>
+                </text>
+                <g id="Group-2" mask="url(#mask-4)" fill="#8B949D">
+                    <g transform="translate(13.000000, 14.000000)">
+                        <path d="M3.295,5.706 C2.244,5.706 1.393,4.854 1.393,3.804 C1.393,2.753 2.244,1.901 3.295,1.901 C4.346,1.901 5.197,2.753 5.197,3.804 C5.197,4.854 4.346,5.706 3.295,5.706 L3.295,5.706 Z M3.295,0 L0,1.901 L0,5.706 L3.295,7.608 L6.589,5.706 L6.589,1.901 L3.295,0 Z" id="Fill-5"></path>
+                        <path d="M3.295,51.706 C2.244,51.706 1.393,50.854 1.393,49.805 C1.393,48.754 2.244,47.902 3.295,47.902 C4.346,47.902 5.197,48.754 5.197,49.805 C5.197,50.854 4.346,51.706 3.295,51.706 L3.295,51.706 Z M3.295,46 L0,47.902 L0,51.706 L3.295,53.608 L6.589,51.706 L6.589,47.902 L3.295,46 Z" id="Fill-6"></path>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#8B949D">
+                    <g transform="translate(297.000000, 14.000000)">
+                        <path d="M3.294,51.706 C2.243,51.706 1.392,50.854 1.392,49.805 C1.392,48.754 2.243,47.902 3.294,47.902 C4.345,47.902 5.196,48.754 5.196,49.805 C5.196,50.854 4.345,51.706 3.294,51.706 L3.294,51.706 Z M3.294,46 L0,47.902 L0,51.706 L3.294,53.608 L6.589,51.706 L6.589,47.902 L3.294,46 Z" id="Fill-7"></path>
+                        <path d="M3.295,5.706 C2.244,5.706 1.393,4.854 1.393,3.804 C1.393,2.753 2.244,1.901 3.295,1.901 C4.346,1.901 5.197,2.753 5.197,3.804 C5.197,4.854 4.346,5.706 3.295,5.706 L3.295,5.706 Z M3.295,0 L0,1.901 L0,5.706 L3.295,7.608 L6.589,5.706 L6.589,1.901 L3.295,0 Z" id="Fill-8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

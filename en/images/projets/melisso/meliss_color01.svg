@@ -1,0 +1,24 @@
+
+<svg width="140px" height="195px" viewBox="0 0 140 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="545" y="75" width="118" height="173" rx="8"></rect>
+        <filter x="-14.8%" y="-9.0%" width="129.7%" height="120.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.509885204   0 0 0 0 0.509885204   0 0 0 0 0.509885204  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PORTFOLIO-Copy-2" transform="translate(-534.000000, -66.000000)">
+            <g id="Rectangle-9-Copy-21">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#A0D4CF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <text id="#A0D4CF" font-family="RobotoMono-Light, Roboto Mono" font-size="14" font-weight="300" fill="#1A1A1A">
+                <tspan x="575" y="105">#A0D4CF</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

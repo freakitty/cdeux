@@ -1,0 +1,36 @@
+
+<svg width="403px" height="400px" viewBox="0 0 403 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="22.2051056%" fx="50%" fy="22.2051056%" r="46.7128917%" gradientTransform="translate(0.500000,0.222051),scale(0.999558,1.000000),rotate(58.522690),translate(-0.500000,-0.222051)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0012FF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TARIFS-03" transform="translate(-97.000000, -208.000000)">
+            <g id="atome" transform="translate(97.000000, 210.000000)">
+                <ellipse id="Oval-2" fill="url(#radialGradient-1)" cx="201.925355" cy="198.036855" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-4" fill="url(#radialGradient-1)" cx="213.328199" cy="198.036855" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-7" fill="url(#radialGradient-1)" cx="190.522512" cy="215.133562" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy" fill="url(#radialGradient-1)" cx="192.422986" cy="207.535026" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-2" fill="url(#radialGradient-1)" cx="210.477488" cy="207.535026" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-8" fill="url(#radialGradient-1)" cx="214.278436" cy="215.133562" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-6" fill="url(#radialGradient-1)" cx="203.825829" cy="187.588867" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-3" fill="url(#radialGradient-1)" cx="202.875592" cy="218.93283" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval-2-Copy-5" fill="url(#radialGradient-1)" cx="190.522512" cy="198.036855" rx="9.97748815" ry="9.97307903"></ellipse>
+                <ellipse id="Oval" stroke="#0012FF" stroke-width="3" cx="201.925355" cy="198.036855" rx="168.667062" ry="168.592526"></ellipse>
+                <ellipse id="Oval-3" stroke="#1A1A1A" stroke-width="3" cx="202.400474" cy="197.561947" rx="69.3672986" ry="69.3366447"></ellipse>
+                <ellipse id="Oval-3" stroke="#1A1A1A" stroke-width="3" cx="202.875592" cy="198.036855" rx="139.209716" ry="139.148198"></ellipse>
+                <ellipse id="Oval-3" stroke="#1A1A1A" stroke-width="3" cx="202.875592" cy="198.036855" rx="198.124408" ry="198.036855"></ellipse>
+                <ellipse id="Oval-3" stroke="#0012FF" stroke-width="3" cx="202.875592" cy="198.036855" rx="103.100711" ry="103.05515"></ellipse>
+                <ellipse id="Oval-4" fill="#1A1A1A" cx="271.767773" cy="208.009934" rx="10.4526066" ry="10.4479876"></ellipse>
+                <ellipse id="Oval-4-Copy" fill="#1A1A1A" cx="220.454976" cy="337.185053" rx="10.4526066" ry="10.4479876"></ellipse>
+                <ellipse id="Oval-4-Copy-2" fill="#1A1A1A" cx="10.4526066" cy="143.422375" rx="10.4526066" ry="10.4479876"></ellipse>
+                <ellipse id="Oval-4-Copy-3" fill="#0012FF" cx="63.6658768" cy="290.644017" rx="10.4526066" ry="10.4479876"></ellipse>
+                <ellipse id="Oval-4-Copy-4" fill="#0012FF" cx="186.246445" cy="94.9817051" rx="10.4526066" ry="10.4479876"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
