@@ -10,17 +10,17 @@ var tw = typewriter(twSpan).withAccuracy(95)
                              .withMinimumSpeed(5)
                              .withMaximumSpeed(17)
                              .build();
-tw.type('Embarquez à bord du vaisseau C2. ')
+tw.type('Come aboard the c2 ship! ')
     .waitRange(500, 1000)
     .put('<br/>')
     .waitRange(1000, 1500)
-    .type('Notre mission, donner du sens à vos projets,')
+    .type('Our mission, give meaning to your projects,')
     .waitRange(1000, 1500)
     .put('<br/>')
-    .type('pour aller toujours plus loin.')
+    .type('to go even further.')
     .waitRange(1000, 1500)
     .put('<br/>')
-    .type('Communication en cours…');
+    .type('ongoing call…');
 
 /* ============================= BURGER ================================ */
 $(function () {

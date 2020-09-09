@@ -10,7 +10,7 @@ var tw = typewriter(twSpan).withAccuracy(95)
                              .withMinimumSpeed(5)
                              .withMaximumSpeed(17)
                              .build();
-tw.type('Nos formules de community management');
+tw.type('Our community management formulas');
 
 /* ============================= BURGER ================================ */
 $(document).ready(function () {

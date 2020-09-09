@@ -55,18 +55,18 @@ span#right{
     top: 10px;
     right: 30px;
     z-index: 9990;
-    font-size: 0.9em;
+    font-size: 0.7em;
     display: block;
 }
 
 .langage a{
     text-decoration: none;
-    color: #ccc;
+    color: #1A1A1A;
     transition: .2s ease;
 }
 
 .langage a:hover{
-    color: #1A1A1A;
+    color: #00FF21;
 }
 
 /* ========================= BURGER =============================== */
@@ -77,10 +77,15 @@ span#right{
     left: 50%;
     transform: translateX(-50%);
     z-index: 9998;
-    color: #ccc;
+    color: #1A1A1A;
     font-size: 0.7em;
     display: block;
     cursor: pointer;
+    transition: all .5s ease;
+}
+
+.menu_name:hover{
+    color: #00FF21;
 }
 
 .hamburger-button{
@@ -99,7 +104,7 @@ span#right{
     -ms-transition-timing-function: ease-out;
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    transition-duration:.2s;
+    transition-duration: .5s;
 }
 
 .hamburger-button>span {
@@ -113,12 +118,12 @@ span#right{
     -ms-transition-timing-function: ease-out;
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    transition-duration:0.4s;
+    transition-duration: .5s;
     border-radius: 7px;
 }
 
 .border>span{
-    border: 1px solid #f0f0f0;
+    border: .5px solid #f0f0f0;
 }
 
 .hamburger-button>span:first-child{
@@ -135,6 +140,10 @@ span#right{
     right: 0;
 }
 
+.border>span:nth-child(2){
+    left: 9px;
+}
+
 .close_menu{
     position: absolute;
     display: none;
@@ -146,7 +155,7 @@ span#right{
     -ms-transition-timing-function: ease-out;
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    transition-duration: 2s;
+    transition-duration: .3s;
     z-index: 890; 
 }
 
@@ -220,7 +229,7 @@ span#right{
     height:100%;
     width: 100%;
     top:-100%;
-    transition:0.3s;
+    transition: all .5s ease-out;
     -webkit-transition-timing-function: ease-out;
     -moz-transition-timing-function: ease-out;
     -ms-transition-timing-function: ease-out;
@@ -235,13 +244,19 @@ span#right{
     font-size:1.5em;
 }
 
+@keyframes rotate {
+  50% { transform: rotate(0deg); }
+}
+
 #navbar ul li{
+    display: inline-block;
     position: absolute;
     width: 150px;
     top: 180px;
     text-align: right;
     z-index: 999;
     left: 50%;
+    animation: rotate 2s ease-in-out infinite paused;
     vertical-align: top;
 }
 
@@ -250,6 +265,10 @@ span#right{
     font-weight: 700;
     color: #fff;
     transition: .2s ease-in-out;
+}
+
+#navbar ul li:hover{
+    animation-play-state: running;
 }
 
 #navbar ul li a:hover{
@@ -623,8 +642,11 @@ em{
 
 .description{
     position: absolute;
-    
     max-width: 250px;
+}
+
+.desc-en{
+    width: 270px;
 }
 
 .cindy{
@@ -1327,9 +1349,17 @@ b{
     background: #650C93;
 }
 
+.sept-illu{
+    background: #FF2608;
+}
+
 .melisso img{
     width: 37%;
     margin-top: 20px;
+}
+
+.be{
+    background-color: #FAD003;
 }
 
 h1{
@@ -1386,7 +1416,7 @@ h1{
 }
 
 .resume_project{
-    width: 40%;
+    width: 50%;
     position: relative;
     top: 170px;
     left: 50%;
@@ -1416,12 +1446,19 @@ h1{
 
 .resume_project a{
     text-decoration: none;
-    color: #FFF;
+}
+
+.resume_project a p{
+    background-color: #F0F0F0;
+    padding: 2px 5px 2px 5px;
+    color: #1A1A1A;
+    border-radius: 2px;
     transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.resume_project a:hover{
-    color: #AAA;
+.resume_project a p:hover{
+    color: #F0F0F0;
+    background-color: #1A1A1A;
 }
 
 .resume_project div div{
@@ -1472,11 +1509,19 @@ h1{
 }
 
 .datexis_pres{
-    width: 20%;
+    width: 35%;
 }
 
 .afhymage_pres{
-    width: 30%;
+    width: 33%;
+}
+
+.sept_pres{
+    width: 27%;
+}
+
+.be_pres{
+    width: 20%;
 }
 
 .logo_pres{
@@ -1566,12 +1611,20 @@ h5{
     margin-top: 30px;
 }
 
+.anim .card.small{
+    width: 15%;
+}
+
 .anim .card.midd{
     width: 45%;
 }
 
-.anim .card.midd img, .anim .card.midd video{
+.anim .card.midd img, .anim .card.midd video, .anim .card.small img{
     width: 100%;
+}
+
+.datex-client img{
+    width: 70%!important;
 }
 
 .card.active {
@@ -1647,11 +1700,68 @@ h5{
     width: 100%;
 }
 
+.layoutdatexis{
+    width: 80%;
+}
+
 .vid_metalcraft{
     width: 70%;
     margin-bottom: 30px;
 }
 
+.afhy-mockup{
+    width: 70%;
+}
+
+.gse_mockup{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.layout-gse{
+    width: 70%;
+}
+
+.sept-mockup{
+    width: 60%;
+    margin-top: 70px;
+}
+
+.datexis_mockup{
+    width: 45%;
+    margin-top: 170px;
+}
+
 .color_card{
     width: 30%;
+}
+
+/* ========================= LOGO CLIENTS =============================== */
+
+
+.logo_clients{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.logo-pos{
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.logo_clients img{
+    filter: grayscale(100%);
+}
+
+h6{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #F0F0F0!important;
+    margin-top: 270px;
+    text-align: center;
+    padding: 5px 8px;
+    background-color: #1A1A1A;
 }

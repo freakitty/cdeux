@@ -18,14 +18,16 @@
     .aph_mockup{margin-top: 80px;}
     .aph_pres{top: 50%;}
     .sed_pres{width: 35%;}
-    .couprie_pres{top: 30%;}
+    .couprie_pres{top: 33%;}
     .christian_mockup{margin-top: 150px;}
     .dc_mockup{margin-top: 220px;}
     .aslak_pres{top: 30%;width: 20%;}
     .melisso_mockup{margin-top: 200px;}
     .melisso_pres{top: 48%;}
     .valony_pres{top: 48%;}
-    .datexis_pres{top: 45%;}
+    .datexis_pres{top: 45%; width: 30%;}
+    .sept_pres{top: 45%;}
+    .afhymage_pres{width: 23%;}
     .item_details {padding: 40px;}
     .nav{top: 380px;}
 }
@@ -54,7 +56,7 @@
     .item:nth-of-type(18n) {grid-column: 2;grid-row: 5;}
     .item:nth-of-type(19n) {grid-column: 3;grid-row: 5;}
     .grid{grid-template-columns: repeat(5, 1fr);}
-    #navbar ul li:nth-child(1):hover{
+   /* #navbar ul li:nth-child(1):hover{
     transform: rotate(0deg);
     top: 150px;
     left: 15%;
@@ -83,7 +85,7 @@
     top: 150px;
     left: 75%;
     text-align: center;
-    }
+    }*/
 }
 
 @media screen and (max-width:1025px){
@@ -114,13 +116,17 @@
     li p{margin-top: 20px;}
     li .btn_devis{margin-top: 25px;}
     #console{ bottom: 20%;}
+    .logo-pos{margin-top: 2vh;}
+    h6{margin-top:300px;}
+    .wrapper{top: 20%;}
     .encart{width: 55%; height: 350px;}
     .resume_project{width: 55%; top: 200px;}
     .nav{top: 250px;font-size: 1em;}
     .next{right: 50px;}
     .previous{left: 50px;}
     .black_bg{height: 60%;}
-    .milky_mockup{margin-top: 400px;}
+    .milky_mockup, .gse_mockup{margin-top: 400px;}
+    .sept-mockup{margin-top: 400px; width: 70%;}
     .accroche9901{font-size: 3.5em;}
     .metalcraft_mockup{width: 50%; margin-top: 400px;}
     .khi_mockup{width: 40%; margin-top: 250px;}
@@ -138,7 +144,7 @@
     .item_details {padding-left: 50px;}
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:800px){
     .affo_tarifs{bottom: 100px;}
     .intro{max-width: 600px; left: 15%; top: 35%;}
     @keyframes text {0%{top: 40%; opacity: 0;} 100%{top: 35%; opacity: 1;}}
@@ -166,12 +172,13 @@
     .milky_mockup{margin-top: 300px;}
     .presentation{margin-left: -15%; margin-right: 80px;}
     .color{margin-top:15px;}
+    h6{margin-top:250px;}
     .anim .card.midd{width: 80%;}
     .accroche9901{font-size: 2.5em;}
     .metalcraft_mockup{margin-top: 300px; width: 60%;}
     .khi_mockup{width: 50%;}
     .aph_mockup{margin-top: 250px; width: 70%;}
-    .sed_mockup{margin-top: 300px;}
+    .sed_mockup, .sept-mockup, .gse_mockup{margin-top: 300px;}
     .christian_mockup{margin-top: 330px;}
     .edition_mockup{margin-top: 300px;}
     .color_card{width: 40%;}
@@ -243,7 +250,7 @@
     .nav p, .back p{display: none;}
     .nav img, .back img{display: block;}
     .back{margin-top: 60px; right: 30px; width: 90px;}
-    .resume_project div div{margin: 0 15px 0 15px;}
+    .resume_project div div{margin: 0 10px 0 10px;}
     .resume_project p{font-size: .8em;}
     .resume_project{top: 70px;}
     .milky_pres{width: 70%;}
@@ -252,6 +259,8 @@
     .color{margin-top:50px; text-align:center;}
     h1{font-size: 4em;}
     .accroche9901{font-size: 1.5em;}
+    .wrapper{top: 30%;}
+    .anim .card.small{width: 30%; margin: 30px;}
     .anim .card.midd video{padding-bottom: 20px;}
     .nangis_pres{width: 35%;}
     .metalcraft_mockup{width: 70%;}
@@ -270,9 +279,18 @@
     .melisso_mockup{margin-top: 310px;}
     .h1_large{font-size: 3em;}
     .melisso_pres{width: 25%; top: 45%;}
+    .gse_mockup{width: 70%;}
+    .gse_pres{width: 50%;}
+    .layout-gse{width: 80%;}
+    .datexis_mockup{width: 80%; margin-top: 250px;}
+    .datexis_pres{width: 55%;}
+    .afhy-mockup{width: 90%;}
+    .sept-mockup{width: 80%;}
+    h6{margin-top:270px;}
 }
 
 @media screen and (max-width:420px){
+    .langage{font-size: .7em;}
     .cindy{left: 22%; top: 60%;}
     .cecilia{left: 22%;}
     .saturn_atome{width: 150px; left: 32%;}
@@ -307,9 +325,16 @@
     .layoutaph{width: 85%;}
     .appart_mockup{margin-top: 270px;}
     .txt_devis p{line-height: 20px;}
+    .gse_mockup{margin-top: 280px;}
+    .valony_pres{width: 50%;}
+    .datexis_mockup{margin-top: 220px;}
+    .sept-mockup{margin-top: 250px; width: 90%;}
+    .resume_project a p{line-height: 16px;}
+    h6{margin-top:230px;}
 }
 
 @media screen and (max-width:385px){
+    .langage{top: 5px; font-size: .6em;}
     .cadre{height: 20px;}
     span#left, span#right{width: 20px;}
     .hamburger-button{top: 20px;}
@@ -323,6 +348,7 @@
     100% {top: 20%; left: 20%;}}
     .socialNetwork{bottom: 32px; left: 40px;}
     .typewriter{font-size: .7em;}
+    h6{font-size: .9em!important; margin-top: 260px;}
     #console{max-width: 100%; bottom: 20%;}
     #navbar ul{font-size: 1em;}
     em{font-size: .7em;}
@@ -350,22 +376,30 @@
     #skip{bottom: 25%; font-size: .9em;}
     .num{top: 100px; right: -30px;}
     .num:last-child{right: -5px;}
-    .resume_project p, .resume_project a{font-size: .7em;}
+    .resume_project p, .resume_project a{font-size: .8em;}
     .next{right: 40px;}
     .previous{left: 40px;}
     .nav{top: 380px;}
     .presentation p{max-width: 100%;}
     .presentation{margin-right:30px;}
     h1{font-size:3.5em;}
+    .anim .card.small{width: 42%;}
+    h6{margin-top:190px;}
     .back{margin-top: 50px; right: 20px;width: 60px;}
     .vid_metalcraft{width: 90%;}
     .layoutsed{width: 95%;}
     .project_link{bottom: 38px; right: 37px;}
     .menu_name{top: 5px; font-size: 0.6em;}
+    .gse_mockup{margin-top: 250px;}
+    .datexis_mockup{width: 90%;}
+    .sept-mockup{margin-top: 220px;}
+    .resume_project a p{padding: 0px 3px 0px 3px; font-size: .9em;}
+    .sept_pres{width: 37%;}
 }
 
 @media screen and (max-width:360px){
     .milky_mockup{margin-top: 200px;}
+    .gse_mockup{margin-top: 220px;}
     .metalcraft_mockup{width: 80%; margin-top: 220px;}
     .aph_mockup{margin-top: 200px;}
     .christian_mockup{margin-top: 200px;}
@@ -391,13 +425,13 @@
     .next{right: 30px;}
     .previous{left: 30px;}
     .resume_project{top: 60px;}
-    .resume_project p, .resume_project a{font-size: .6em;}
+    .resume_project p, .resume_project a{font-size: .7em; line-height: 15px;}
     .encart img{width: 30%;}
     .neuf01 img{width: 25%;}
     .black_bg{height: 70%;}
     .milky_mockup{margin-top: 180px;}
     .color img{width: 45%;}
-    .color{margin-left:20px;}
+    .resume_project div div{margin: 0 5px 0 5px;}
     .logo_pres{top: 55%;}
     .accroche9901{font-size: 1em;}
     .metalcraft_mockup{margin-top: 150px;}
@@ -417,4 +451,10 @@
     .melisso_mockup{margin-top: 170px;}
     .appart_mockup{margin-top: 180px;}
     .project_link{font-size: .7em; right: 30px;}
+    .gse_mockup{width: 80%; margin-top: 180px;}
+    .layout-gse{width: 90%;}
+    .datexis_mockup{margin-top: 150px;}
+    .sept-mockup{margin-top: 150px;}
+    .presentation{padding-right: 60px;}
+    h6{margin-top:180px;}
 }

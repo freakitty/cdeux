@@ -65,7 +65,7 @@ $(function () {
             .withMinimumSpeed(5)
             .withMaximumSpeed(17)
             .build();
-    tw.type('Nos réalisations. Bon voyage ');
+    tw.type('Our achievements. Have a nice trip ');
 
     toView(getH());
 });

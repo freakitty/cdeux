@@ -11,11 +11,11 @@ $(function () {
     function setH(h) {window.location.hash = h; }
 
     function tweenreset() {
-        TweenMax.to('#navbar', 0.7, {top: '-100%'});
+        TweenMax.to('#navbar', 0.1, {top: '-100%'});
     }
 
     function toMenu() {
-        TweenMax.to('#navbar', 0.7, {top: '0%'});
+        TweenMax.to('#navbar', 0.1, {top: '0%'});
     }
 
     function toView(route) {
@@ -35,16 +35,16 @@ $(function () {
         if ($('#navbar').offset().top < 0) {
             tweenreset();
             toView('#navbar');
-            $('.hamburger-button').css('display', 'none');
+            $('.hamburger-button').css('z-index', '9');
             $('.menu_name').css('display', 'none');
-            $('.close_menu').delay(800)
+            $('.close_menu').delay(300)
                 .queue(function (next) { 
                     $(this).css('display', 'block'); 
                     next(); 
                 });
         } else {
             toView('home');
-            $('.hamburger-button').css('display', 'block');
+            $('.hamburger-button').css('z-index', '9999');
             $('.menu_name').css('display', 'block');
             $('.close_menu').css('display', 'none');
         }
@@ -62,13 +62,13 @@ $(function () {
         .waitRange(500, 1000)
         .put('<br/>')
         .waitRange(1000, 1500)
-        .type('Ici C2')
+        .type('Here is C2')
         .waitRange(1000, 1500)
         .put('<br/>')
-        .type('Communication établie')
+        .type('established communication')
         .waitRange(500, 1000)
         .put('<br/>')
-        .type('Design / CM / Web / Conseil');
+        .type('Design / CM / Web / Consulting');
 
     
     
