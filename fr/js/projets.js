@@ -15,11 +15,11 @@ $(function () {
     function setH(h) {window.location.hash = h;}
 
     function tweenreset() {
-        TweenMax.to("#navbar", 0.7, {top: "-100%"});
+        TweenMax.to("#navbar", 0.1, {top: "-100%"});
     }
 
     function toMenu() {
-        TweenMax.to("#navbar", 0.7, {top: "0%"});
+        TweenMax.to("#navbar", 0.1, {top: "0%"});
     }
 
     function toView(route) {
@@ -39,7 +39,7 @@ $(function () {
         if ($('#navbar').offset().top < 0) {
             tweenreset();
             toView('#navbar');
-            $('.hamburger-button').css('display', 'none');
+            $('.hamburger-button').css('z-index', '9');
             $('.menu_name').css('display', 'none');
             $('body').css('overflow-y', 'hidden');
             $('.close_menu').delay(800)
@@ -50,7 +50,7 @@ $(function () {
             $('body').css('overflow-y','hidden');
         } else {
             toView('home');
-            $('.hamburger-button').css('display', 'block');
+            $('.hamburger-button').css('z-index', '9999');
             $('.menu_name').css('display', 'block');
             $('.close_menu').css('display', 'none');
             $('body').css('overflow-y','scroll');

@@ -20,11 +20,11 @@ $(function () {
     function setH(h) {window.location.hash = h; }
 
     function tweenreset() {
-        TweenMax.to('#navbar', 0.7, {top: '-100%'});
+        TweenMax.to('#navbar', 0.1, {top: '-100%'});
     }
 
     function toMenu() {
-        TweenMax.to('#navbar', 0.7, {top: '0%'});
+        TweenMax.to('#navbar', 0.1, {top: '0%'});
     }
 
     function toView(route) {
@@ -44,7 +44,7 @@ $(function () {
         if ($('#navbar').offset().top < 0) {
             tweenreset();
             toView('#navbar');
-            $('.hamburger-button').css('display', 'none');
+            $('.hamburger-button').css('z-index', '9');
             $('.menu_name').css('display', 'none');
             $('body').css('overflow-y', 'hidden');
             $('.close_menu').delay(800)
@@ -55,7 +55,7 @@ $(function () {
             $('body').css('overflow-y','hidden');
         } else {
             toView('home');
-            $('.hamburger-button').css('display', 'block');
+            $('.hamburger-button').css('z-index', '9999');
             $('.menu_name').css('display', 'block');
             $('.close_menu').css('display', 'none');
             $('body').css('overflow-y','scroll')
@@ -168,11 +168,11 @@ $(function () {
     $('.dot_cindy').on('click', function () {
         var imageEnCours = $('.img_cindy').attr('src');
         $('.img_cindy').fadeOut(300, function () {
-            if (imageEnCours === 'images/cindy-photo-portfolio.png') {
-                $('.img_cindy').attr('src', 'images/cindyprofil.png').fadeIn(300);
+            if (imageEnCours === '../../images/cindy-photo-portfolio.png') {
+                $('.img_cindy').attr('src', '../../images/cindyprofil.png').fadeIn(300);
                 $('.img_cindy').css('z-index', '200');
             } else {
-                $('.img_cindy').attr('src', 'images/cindy-photo-portfolio.png').fadeIn(300);
+                $('.img_cindy').attr('src', '../../images/cindy-photo-portfolio.png').fadeIn(300);
                 $('.img_cindy').css('z-index', '0');
             }
         });
@@ -181,11 +181,11 @@ $(function () {
     $('.dot_ceci').on('click', function () {
         var imageActuelle = $('.img_cecilia').attr('src');
         $('.img_cecilia').fadeOut(300, function () {
-            if (imageActuelle === 'images/Ceci-photo-portfolio.png') {
-                $('.img_cecilia').attr('src', 'images/ceciprofil.png').fadeIn(300);
+            if (imageActuelle === '../../images/Ceci-photo-portfolio.png') {
+                $('.img_cecilia').attr('src', '../../images/ceciprofil.png').fadeIn(300);
                 $('.img_cecilia').css('z-index', '200');
             } else {
-                $('.img_cecilia').attr('src', 'images/Ceci-photo-portfolio.png').fadeIn(300);
+                $('.img_cecilia').attr('src', '../../images/Ceci-photo-portfolio.png').fadeIn(300);
                 $('.img_cecilia').css('z-index', '0');
             }
         });
@@ -193,11 +193,11 @@ $(function () {
     
     $('.dot_middle').on('click', function () {
         $('.img_cecilia').fadeOut(300, function () {
-            $('.img_cecilia').attr('src', 'images/Ceci-photo-portfolio.png').fadeIn(300);
+            $('.img_cecilia').attr('src', '../../images/Ceci-photo-portfolio.png').fadeIn(300);
             $('.img_cecilia').css('z-index', '100');
         });
         $('.img_cindy').fadeOut(300, function () {
-            $('.img_cindy').attr('src', 'images/cindy-photo-portfolio.png').fadeIn(300);
+            $('.img_cindy').attr('src', '../../images/cindy-photo-portfolio.png').fadeIn(300);
             $('.img_cindy').css('z-index', '0');
         });
     });

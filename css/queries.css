@@ -54,38 +54,7 @@
     .item:nth-of-type(16n) {grid-column: 5;grid-row: 4;}
     .item:nth-of-type(17n) {grid-column: 1;grid-row: 5;}
     .item:nth-of-type(18n) {grid-column: 2;grid-row: 5;}
-    .item:nth-of-type(19n) {grid-column: 3;grid-row: 5;}
     .grid{grid-template-columns: repeat(5, 1fr);}
-   /* #navbar ul li:nth-child(1):hover{
-    transform: rotate(0deg);
-    top: 150px;
-    left: 15%;
-    text-align: center;
-    }
-    #navbar ul li:nth-child(2):hover{
-    transform: rotate(0deg);
-    top: 150px;
-    left: 30%;
-    text-align: center;
-    }
-    #navbar ul li:nth-child(3):hover{
-    transform: rotate(0deg);
-    top: 150px;
-    left: 45%;
-    text-align: center;
-    }
-    #navbar ul li:nth-child(4):hover{
-    transform: rotate(0deg);
-    top: 150px;
-    left: 60%;
-    text-align: center;
-    }
-    #navbar ul li:nth-child(5):hover{
-    transform: rotate(0deg);
-    top: 150px;
-    left: 75%;
-    text-align: center;
-    }*/
 }
 
 @media screen and (max-width:1025px){
@@ -287,6 +256,9 @@
     .afhy-mockup{width: 90%;}
     .sept-mockup{width: 80%;}
     h6{margin-top:270px;}
+    .title-be{font-size: 2.8em}
+    .be-mockup{width: 80%; margin-top: 280px;}
+    .be_pres{width: 30%; top: 45%;}
 }
 
 @media screen and (max-width:420px){
@@ -395,6 +367,8 @@
     .sept-mockup{margin-top: 220px;}
     .resume_project a p{padding: 0px 3px 0px 3px; font-size: .9em;}
     .sept_pres{width: 37%;}
+    .title-be{font-size: 2.5em}
+    .be-mockup{margin-top: 230px;}
 }
 
 @media screen and (max-width:360px){
@@ -409,6 +383,7 @@
     .appart_mockup{margin-top: 220px;}
     .item:after {width: 75%;}
     .nav{top: 350px;}
+
 }
 
 @media screen and (max-width:320px){
@@ -457,4 +432,6 @@
     .sept-mockup{margin-top: 150px;}
     .presentation{padding-right: 60px;}
     h6{margin-top:180px;}
+    .title-be{font-size: 2.3em}
+    .be-mockup{margin-top: 180px;}
 }

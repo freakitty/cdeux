@@ -40,12 +40,16 @@
        
         <!-- ====================== LINES ========================== --> 
         
-        <img src="images/lines_bg.svg" alt="lines" class="lines">
+        <canvas id="myCanvas">
+			Sorry, your browser does not allow canvas element.
+		</canvas>
+        
+        <!--<img src="images/lines_bg.svg" alt="lines" class="lines">-->
         
         <!-- ====================== LANGAGE ========================== -->
        
        <div class="langage">
-           <a href="index-fr">fr_</a>
+           <a href="index">fr_</a>
        </div>
        
         <!-- ====================== BURGER ========================== -->
@@ -90,7 +94,7 @@
         
         <!-- ======================= HIDDEN VIDEO ======================== -->
         
-        <video autoplay preload="auto" id="vid_intro">
+        <video muted autoplay preload="auto" id="vid_intro">
             <source src="video/intro_C2.webm" type="video/webm">
             <source src="video/intro_C2.ogv" type="video/ogv"> 
             <source src="video/intro_C2.mp4" type="video/mp4">
@@ -120,6 +124,7 @@
         
     </main>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
     <script src="en/js/jquery-3.3.1.min.js"></script>
     <script src="en/js/typewriter-bundle.min.js"></script>
     <script src="en/js/TweenMax.min.js"></script>

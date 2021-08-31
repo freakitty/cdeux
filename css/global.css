@@ -37,6 +37,13 @@ span#right{
     width: 100%;
 }
 
+canvas{
+    height: 100%;
+    width: 100%;
+    z-index: 101;
+    position: absolute;
+}
+
 .lines_white{
     width: 100%;
     z-index: -150;
@@ -120,6 +127,10 @@ span#right{
     transition-timing-function: ease-out;
     transition-duration: .5s;
     border-radius: 7px;
+}
+
+.hamburger-button:hover span{
+    background-color: #00FF21;
 }
 
 .border>span{
@@ -245,7 +256,8 @@ span#right{
 }
 
 @keyframes rotate {
-  50% { transform: rotate(0deg); }
+    -webkit-50% { transform: rotate(0deg); }
+    50% { transform: rotate(0deg); }
 }
 
 #navbar ul li{
@@ -256,7 +268,8 @@ span#right{
     text-align: right;
     z-index: 999;
     left: 50%;
-    animation: rotate 2s ease-in-out infinite paused;
+    -webkit-animation: rotate 4s ease-in-out infinite paused;
+    animation: rotate 4s ease-in-out infinite paused;
     vertical-align: top;
 }
 
@@ -268,6 +281,7 @@ span#right{
 }
 
 #navbar ul li:hover{
+    -webkit-animation-play-state: running;
     animation-play-state: running;
 }
 
@@ -1173,19 +1187,19 @@ b{
 }
 
 .item:nth-of-type(16n) {
-    background-image: url("../images/bg_datexis.svg");
-}
-
-.item:nth-of-type(17n) {
     background-image: url("../images/bg_afhymage.svg");
 }
 
-.item:nth-of-type(18n) {
+.item:nth-of-type(17n) {
     background-image: url("../images/bg_sept-illu.svg");
 }
 
-.item:nth-of-type(19n) {
+.item:nth-of-type(18n) {
     background-image: url("../images/bg_be.svg");
+}
+
+.item:nth-of-type(19n) {
+    background-image: url("../images/bg_datexis.svg");
 }
 
 .item:after {
@@ -1730,6 +1744,15 @@ h5{
 .datexis_mockup{
     width: 45%;
     margin-top: 170px;
+}
+
+.be-mockup{
+    width: 65%;
+    margin-top: 130px;
+}
+
+.be-layout{
+    width: 80%!important;
 }
 
 .color_card{
